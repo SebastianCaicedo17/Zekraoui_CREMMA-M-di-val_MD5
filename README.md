@@ -11,10 +11,9 @@ Pipeline de bout en bout pour la reconnaissance automatique de texte manuscrit (
 
 | Membre | Rôle |
 |---|---|
-| À compléter | Responsable Technique |
-| À compléter | Responsable Documentation |
-| À compléter | Responsable Expérimentation |
-| À compléter | Responsable Données |
+| Sebastian QUESADA CAICEDO | Responsable Technique |
+| Shaïma Dayb | Responsable Documentation |
+| Ihsane ZEKRAOUI | Responsable Expérimentation |
 
 ---
 
