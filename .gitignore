@@ -1,22 +1,60 @@
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
+*.py[codz]
+*$py.class
+*.so
 *.egg-info/
+*.egg
+MANIFEST
+.installed.cfg
 dist/
 build/
+develop-eggs/
+downloads/
+eggs/
 .eggs/
-*.egg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests & coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+profile_default/
+ipython_config.py
 
 # Environnements virtuels
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 .env
-
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb
+.envrc
 
 # Données lourdes (versionnées via DVC ou SHA-256)
 data/
@@ -34,10 +72,11 @@ checkpoints/
 *.bin
 *.safetensors
 
-# Logs & MLflow
+# Logs & tracking
 mlruns/
 *.log
 wandb/
+.ruff_cache/
 
 # OS
 .DS_Store
@@ -47,8 +86,28 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+tempCodeRunnerFile.py
 
 # DVC
 /tmp
 .dvc/cache
 .dvc/tmp
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
+
+# Build tools
+.pybuilder/
+target/
+__pypackages__/
+.pdm-python
+.pdm-build/
+.pixi/
+.abstra/
+.streamlit/secrets.toml
+/site
