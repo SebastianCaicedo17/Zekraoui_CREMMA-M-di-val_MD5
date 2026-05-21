@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Environnements virtuels
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Données lourdes (versionnées via DVC ou SHA-256)
+data/
+*.tiff
+*.tif
+*.jpg
+*.jpeg
+*.png
+!tests/fixtures/*.png
+
+# Modèles & checkpoints
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Logs & MLflow
+mlruns/
+*.log
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# DVC
+/tmp
+.dvc/cache
+.dvc/tmp
