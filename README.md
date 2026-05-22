@@ -86,9 +86,9 @@ python src/aggregation.py --output dataset_nlp/
 
 | Jeu | SHA-256 |
 |---|---|
-| Train set | `À compléter après constitution` |
-| Val set   | `À compléter après constitution` |
-| Test set  | `À compléter après constitution` |
+| Train set (10 manuscrits, 16 640 lignes) | `de26aaa226edad415b37e02a6e3e68a5f001968a3ec69daddb3c47b69d9767d8` |
+| Val set   (2 manuscrits,  4 684 lignes)  | `b7891b9a73b9704e37623b7dfec43677a7a94da2f58aa94557254dfd1a03a4c5` |
+| Test set  (2 manuscrits,  1 519 lignes)  | `86f5f48b7628128b4e86bc5684b13f7409972bf3d7dc39291d97b03d25f62949` |
 
 ---
 
