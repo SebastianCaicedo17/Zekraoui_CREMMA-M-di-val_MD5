@@ -4,8 +4,9 @@ import hashlib
 import json
 import random
 import subprocess
+import unicodedata
 import xml.etree.ElementTree as ET
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 from src.utils import fixer_seeds
@@ -281,6 +282,168 @@ def sauvegarder_split(split: dict[str, list[Path]], out_path: Path) -> dict[str,
     return hashes
 
 
+# ---------------------------------------------------------------------------
+# Détection des abréviations médiévales (Unicode)
+# ---------------------------------------------------------------------------
+
+# Latin Extended-D : formes abrégées spécialisées (ꝑ, ꝓ, ꝯ, ꝰ…)
+_ABREV_RANGES = [
+    (0xA720, 0xA7FF),   # Latin Extended-D
+    (0x0363, 0x036F),   # Lettres combinantes en exposant (ͣ ͤ ͥ ͦ ͧ…)
+]
+# Signes diacritiques combinants utilisés comme marques d'abréviation
+_ABREV_COMBINING = {
+    0x0303,  # Tilde combinant — barre nasale (m̃, ñ médiéval)
+    0x0305,  # Macron combinant — barre de suspension
+    0x033E,  # Tilde vertical combinant — marque d'abréviation
+    0x0360,  # Double tilde combinant
+    0x0361,  # Double brève renversée combinante
+}
+
+
+def est_char_abreviation(c: str) -> bool:
+    """Retourne True si le caractère est un marqueur d'abréviation médiévale.
+
+    Args:
+        c: Caractère Unicode à tester (longueur 1).
+
+    Returns:
+        True si c'est un caractère d'abréviation médiévale.
+
+    Example:
+        >>> est_char_abreviation('ꝯ')
+        True
+        >>> est_char_abreviation('a')
+        False
+    """
+    code = ord(c)
+    if code in _ABREV_COMBINING:
+        return True
+    return any(start <= code <= end for start, end in _ABREV_RANGES)
+
+
+def detecter_abreviations(ligne: str) -> list[str]:
+    """Retourne la liste des caractères d'abréviation présents dans une ligne.
+
+    Args:
+        ligne: Texte transcrit d'une ligne de manuscrit.
+
+    Returns:
+        Liste des caractères d'abréviation trouvés (peut contenir des doublons).
+
+    Example:
+        >>> detecter_abreviations("Ci ꝯm̃ce le liure")
+        ['ꝯ', '̃']
+    """
+    return [c for c in ligne if est_char_abreviation(c)]
+
+
+def contient_abreviation(ligne: str) -> bool:
+    """Retourne True si la ligne contient au moins un caractère d'abréviation.
+
+    Args:
+        ligne: Texte transcrit d'une ligne de manuscrit.
+
+    Returns:
+        True si la ligne contient une ou plusieurs abréviations médiévales.
+
+    Example:
+        >>> contient_abreviation("Ci ꝯm̃ce le liure")
+        True
+        >>> contient_abreviation("le liure du roi")
+        False
+    """
+    return any(est_char_abreviation(c) for c in ligne)
+
+
+def statistiques_abreviations(data_dir: Path = DATA_DIR) -> dict:
+    """Calcule les statistiques d'abréviations dans l'ensemble du corpus.
+
+    Pour chaque manuscrit et globalement, mesure la proportion de lignes
+    contenant des abréviations et les caractères les plus fréquents.
+
+    Args:
+        data_dir: Racine du corpus cloné.
+
+    Returns:
+        Dictionnaire avec stats globales et par manuscrit :
+        ``nb_lignes``, ``nb_lignes_abrev``, ``taux_abrev``,
+        ``top_chars`` (liste des 10 caractères les plus fréquents avec nom Unicode).
+
+    Example:
+        >>> stats = statistiques_abreviations()
+        >>> print(stats["taux_abrev_global"])
+    """
+    manuscrits = lister_manuscrits(data_dir)
+    compteur_global: Counter = Counter()
+    total_lignes = total_avec_abrev = 0
+    stats_par_manuscrit = []
+
+    for manuscrit_dir in manuscrits:
+        xml_files = [
+            f for f in manuscrit_dir.rglob("*.xml") if ".chocomufin" not in f.name
+        ]
+        compteur_ms: Counter = Counter()
+        nb_lignes = nb_avec_abrev = 0
+
+        for xml_path in xml_files:
+            for ligne in extraire_lignes_xml(xml_path):
+                nb_lignes += 1
+                chars_abrev = detecter_abreviations(ligne)
+                if chars_abrev:
+                    nb_avec_abrev += 1
+                    compteur_ms.update(chars_abrev)
+                    compteur_global.update(chars_abrev)
+
+        total_lignes += nb_lignes
+        total_avec_abrev += nb_avec_abrev
+        taux = round(nb_avec_abrev / nb_lignes, 4) if nb_lignes else 0.0
+
+        top = [
+            {
+                "char": c,
+                "code": f"U+{ord(c):04X}",
+                "nom": _nom_unicode(c),
+                "count": n,
+            }
+            for c, n in compteur_ms.most_common(10)
+        ]
+        stats_par_manuscrit.append({
+            "nom": manuscrit_dir.name,
+            "nb_lignes": nb_lignes,
+            "nb_lignes_abrev": nb_avec_abrev,
+            "taux_abrev": taux,
+            "top_chars": top,
+        })
+
+    taux_global = round(total_avec_abrev / total_lignes, 4) if total_lignes else 0.0
+    top_global = [
+        {
+            "char": c,
+            "code": f"U+{ord(c):04X}",
+            "nom": _nom_unicode(c),
+            "count": n,
+        }
+        for c, n in compteur_global.most_common(10)
+    ]
+
+    return {
+        "nb_lignes_total": total_lignes,
+        "nb_lignes_abrev": total_avec_abrev,
+        "taux_abrev_global": taux_global,
+        "top_chars_global": top_global,
+        "par_manuscrit": stats_par_manuscrit,
+    }
+
+
+def _nom_unicode(c: str) -> str:
+    """Retourne le nom Unicode d'un caractère, ou 'INCONNU' si absent."""
+    try:
+        return unicodedata.name(c)
+    except ValueError:
+        return "INCONNU"
+
+
 if __name__ == "__main__":
     fixer_seeds(42)
 
@@ -320,3 +483,22 @@ if __name__ == "__main__":
         print(f"       SHA-256 : {hashes[ensemble]}")
 
     print("\n[info] Split sauvegarde -> data/split.json")
+
+    # 5. Statistiques d'abréviations
+    print("\n=== Statistiques abréviations ===")
+    stats_abrev = statistiques_abreviations()
+    print(f"Lignes totales     : {stats_abrev['nb_lignes_total']}")
+    print(f"Lignes avec abrev. : {stats_abrev['nb_lignes_abrev']}")
+    print(f"Taux global        : {stats_abrev['taux_abrev_global']:.1%}")
+    print("\nTop 10 caractères d'abréviation :")
+    for entry in stats_abrev["top_chars_global"]:
+        print(f"  {entry['code']}  {entry['nom']:<45}  x{entry['count']}")
+    print("\nTaux par manuscrit :")
+    print(f"{'Nom':<50} {'Taux':>6}")
+    print("-" * 58)
+    for m in stats_abrev["par_manuscrit"]:
+        print(f"{m['nom']:<50} {m['taux_abrev']:>6.1%}")
+
+    out_abrev = Path("data/abreviations_stats.json")
+    out_abrev.write_text(json.dumps(stats_abrev, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\n[info] Stats abreviations -> {out_abrev}")
