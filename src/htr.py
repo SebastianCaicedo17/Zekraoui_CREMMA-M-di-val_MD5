@@ -326,6 +326,8 @@ def inferer_trocr(
 
     processor = TrOCRProcessor.from_pretrained(model_path)
     model = VisionEncoderDecoderModel.from_pretrained(model_path)
+    model.config.pad_token_id = processor.tokenizer.pad_token_id
+    model.config.decoder_start_token_id = processor.tokenizer.bos_token_id
     model.eval()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
@@ -442,6 +444,7 @@ def fine_tuner_trocr_lora(
     batch_size: int = 8,
     learning_rate: float = 5e-5,
     patience: int = 3,
+    max_val_lignes: Optional[int] = None,
     checkpoint_dir: Path = CHECKPOINTS_DIR,
     journal_path: Path = Path("experiments/journal.jsonl"),
     seed: int = 42,
@@ -483,10 +486,15 @@ def fine_tuner_trocr_lora(
 
     fixer_seeds(seed)
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    print(f"[info] Fine-tuning TrOCR LoRA r={lora_r} sur {device}")
+    use_fp16 = device == "cuda"
+    print(f"[info] Fine-tuning TrOCR LoRA r={lora_r} sur {device} | fp16={use_fp16}")
 
     processor = TrOCRProcessor.from_pretrained(MODELE_TROCR)
     model = VisionEncoderDecoderModel.from_pretrained(MODELE_TROCR)
+
+    # Requis par les nouvelles versions de transformers
+    model.config.pad_token_id = processor.tokenizer.pad_token_id
+    model.config.decoder_start_token_id = processor.tokenizer.bos_token_id
 
     # Configuration LoRA
     lora_config = LoraConfig(
@@ -494,21 +502,29 @@ def fine_tuner_trocr_lora(
         inference_mode=False,
         r=lora_r,
         lora_alpha=lora_r * 4,
-        target_modules=["query", "value"],
+        target_modules="all-linear",
         lora_dropout=0.1,
     )
     model = get_peft_model(model, lora_config)
+    model.gradient_checkpointing_enable()
     model.to(device)
     model.print_trainable_parameters()
 
     # Datasets
     train_ds = _DatasetLignesHTR(train_manifest, processor)
-    val_ds = _DatasetLignesHTR(val_manifest, processor)
     train_loader = torch.utils.data.DataLoader(
         train_ds, batch_size=batch_size, shuffle=True
     )
 
+    val_items = json.loads(val_manifest.read_text(encoding="utf-8"))
+    if max_val_lignes:
+        val_items = val_items[:max_val_lignes]
+    val_images = [Image.open(it["image_path"]).convert("RGB") for it in val_items]
+    val_refs = [it["text"] for it in val_items]
+    val_flags = [it["has_abbreviation"] for it in val_items]
+
     optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
+    scaler = torch.cuda.amp.GradScaler(enabled=use_fp16)
 
     checkpoint_dir.mkdir(parents=True, exist_ok=True)
     best_cer = float("inf")
@@ -522,23 +538,30 @@ def fine_tuner_trocr_lora(
         for batch in train_loader:
             pixel_values = batch["pixel_values"].to(device)
             labels = batch["labels"].to(device)
-            outputs = model(pixel_values=pixel_values, labels=labels)
-            loss = outputs.loss
-            loss.backward()
-            optimizer.step()
             optimizer.zero_grad()
+            with torch.cuda.amp.autocast(enabled=use_fp16):
+                outputs = model(pixel_values=pixel_values, labels=labels)
+                loss = outputs.loss
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
             pertes.append(loss.item())
 
         perte_moy = float(np.mean(pertes))
 
-        # -- Val CER --
+        # -- Val CER (inférence avec le modèle courant, sans charger un second modèle) --
         model.eval()
-        val_items = json.loads(val_manifest.read_text(encoding="utf-8"))
-        val_images = [Image.open(it["image_path"]).convert("RGB") for it in val_items]
-        val_refs = [it["text"] for it in val_items]
-        val_flags = [it["has_abbreviation"] for it in val_items]
+        preds = []
+        with torch.no_grad():
+            for i in range(0, len(val_images), batch_size):
+                batch_imgs = val_images[i : i + batch_size]
+                pixel_values = processor(
+                    images=batch_imgs, return_tensors="pt"
+                ).pixel_values.to(device)
+                with torch.cuda.amp.autocast(enabled=use_fp16):
+                    generated_ids = model.generate(pixel_values)
+                preds.extend(processor.batch_decode(generated_ids, skip_special_tokens=True))
 
-        preds = inferer_trocr(val_images, model_path=meilleur_chemin if epoch > 1 else MODELE_TROCR)
         stats_val = evaluer_stratifie(preds, val_refs, val_flags)
         cer_val = stats_val["CER_global"]
 
