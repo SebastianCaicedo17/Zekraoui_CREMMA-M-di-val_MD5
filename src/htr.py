@@ -321,13 +321,27 @@ def inferer_trocr(
     Example:
         >>> texts = inferer_trocr([img1, img2])
     """
+    from pathlib import Path as _Path
     from transformers import TrOCRProcessor, VisionEncoderDecoderModel
     import torch
 
-    processor = TrOCRProcessor.from_pretrained(model_path)
-    model = VisionEncoderDecoderModel.from_pretrained(model_path)
-    model.config.pad_token_id = processor.tokenizer.pad_token_id
-    model.config.decoder_start_token_id = processor.tokenizer.bos_token_id
+    is_peft_ckpt = _Path(str(model_path)).is_dir() and (
+        _Path(str(model_path)) / "adapter_config.json"
+    ).exists()
+
+    if is_peft_ckpt:
+        from peft import PeftModel
+        processor = TrOCRProcessor.from_pretrained(MODELE_TROCR)
+        base = VisionEncoderDecoderModel.from_pretrained(MODELE_TROCR)
+        base.config.pad_token_id = processor.tokenizer.pad_token_id
+        base.config.decoder_start_token_id = processor.tokenizer.bos_token_id
+        model = PeftModel.from_pretrained(base, str(model_path))
+    else:
+        processor = TrOCRProcessor.from_pretrained(model_path)
+        model = VisionEncoderDecoderModel.from_pretrained(model_path)
+        model.config.pad_token_id = processor.tokenizer.pad_token_id
+        model.config.decoder_start_token_id = processor.tokenizer.bos_token_id
+
     model.eval()
     device = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(device)
@@ -339,7 +353,7 @@ def inferer_trocr(
             images=batch, return_tensors="pt"
         ).pixel_values.to(device)
         with torch.no_grad():
-            ids = model.generate(pixel_values)
+            ids = model.generate(pixel_values=pixel_values)
         transcriptions.extend(
             processor.batch_decode(ids, skip_special_tokens=True)
         )
@@ -559,7 +573,7 @@ def fine_tuner_trocr_lora(
                     images=batch_imgs, return_tensors="pt"
                 ).pixel_values.to(device)
                 with torch.cuda.amp.autocast(enabled=use_fp16):
-                    generated_ids = model.generate(pixel_values)
+                    generated_ids = model.generate(pixel_values=pixel_values)
                 preds.extend(processor.batch_decode(generated_ids, skip_special_tokens=True))
 
         stats_val = evaluer_stratifie(preds, val_refs, val_flags)

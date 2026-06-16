@@ -1,0 +1,82 @@
+{
+  "cer": {
+    "CER_global": 0.1392,
+    "CER_abbrev": 0.1671,
+    "CER_no_abbrev": 0.1328,
+    "delta_CER": 0.0343,
+    "nb_lignes_abrev": 47,
+    "nb_lignes_no_abbrev": 204
+  },
+  "wer": {
+    "global": 0.4711,
+    "abbrev": 0.5875,
+    "no_abbrev": 0.4442,
+    "delta": 0.1432
+  },
+  "bootstrap_ic": {
+    "CER_global": {
+      "mean": 0.1391472770727808,
+      "lower": 0.12376420490776333,
+      "upper": 0.1548549084808823
+    },
+    "CER_abbrev": {
+      "mean": 0.16628972779708334,
+      "lower": 0.13894063393407985,
+      "upper": 0.19867794867727692
+    },
+    "CER_no_abbrev": {
+      "mean": 0.13303251130966584,
+      "lower": 0.1152018630862586,
+      "upper": 0.15291349575178084
+    },
+    "delta_CER": {
+      "mean": 0.03325721648741748,
+      "lower": -4.3068999923180716e-05,
+      "upper": 0.07055084705386001
+    }
+  },
+  "analyse_abreviations": {
+    "par_caractere": {
+      "ͤ": {
+        "cer_moyen": 0.313,
+        "nb_lignes": 2
+      },
+      "ꝯ": {
+        "cer_moyen": 0.2229,
+        "nb_lignes": 7
+      },
+      "̃": {
+        "cer_moyen": 0.1604,
+        "nb_lignes": 23
+      },
+      "ͬ": {
+        "cer_moyen": 0.157,
+        "nb_lignes": 5
+      },
+      "ꝑ": {
+        "cer_moyen": 0.1422,
+        "nb_lignes": 5
+      },
+      "ͥ": {
+        "cer_moyen": 0.134,
+        "nb_lignes": 4
+      },
+      "ͣ": {
+        "cer_moyen": 0.1236,
+        "nb_lignes": 5
+      }
+    },
+    "cer_lignes_abrev": 0.1671,
+    "cer_lignes_normales": 0.1328,
+    "delta_absolu": 0.0343,
+    "ratio_impact": 0.1873
+  },
+  "mcnemar": {
+    "b": 0,
+    "c": 21,
+    "chi2": 19.0476,
+    "p_value": 0.0,
+    "significatif": true
+  },
+  "conclusion_problematique": "Le CER global est 0.139. Sur les lignes contenant des abréviations médiévales, le CER est plus élevé (0.167) par rapport aux lignes ordinaires (0.133) (IC 95% bootstrap : [-0.000, 0.071]). Les caractères d'abréviation les plus impactants sont : «ͤ», «ꝯ», «̃». Les abréviations représentent 18.7% du corpus. Ces résultats indiquent que les abréviations impactent modérément les performances HTR sur le corpus CREMMA."
+}
