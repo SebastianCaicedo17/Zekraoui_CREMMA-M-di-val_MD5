@@ -1,0 +1,209 @@
+{
+  "meta": {
+    "mode_nettoyage": "diplomatique",
+    "source_predictions": "dataset_nlp\\val.json",
+    "source_oracle": "dataset_nlp\\val_oracle.json"
+  },
+  "metriques": {
+    "precision": 0.5826,
+    "rappel": 0.5799,
+    "f1": 0.5789,
+    "nb_lignes": 2733
+  },
+  "par_abreviation": {
+    "avec_abreviation": {
+      "precision": 0.5608,
+      "rappel": 0.556,
+      "f1": 0.5564,
+      "nb_lignes": 382
+    },
+    "sans_abreviation": {
+      "precision": 0.5861,
+      "rappel": 0.5838,
+      "f1": 0.5825,
+      "nb_lignes": 2351
+    }
+  },
+  "pires_lignes": [
+    {
+      "line_id": "eSc_line_27878a83",
+      "prediction": "C",
+      "oracle": "E",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_830ffe05",
+      "prediction": "u ayremiere ꝑtie ꝯtient",
+      "oracle": "La premiere քtie 9tient",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_ecd137a4",
+      "prediction": "lemonde",
+      "oracle": "le monde",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_e56584fc",
+      "prediction": "des.uiii. are",
+      "oracle": "des .vii. ars",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_25c89090",
+      "prediction": "Ventismes denat͛e ꝯm̃t",
+      "oracle": "Li witismes de nat᷑ e 9mt̄",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_239ef95c",
+      "prediction": "Piensimet ꝯment iac͛re",
+      "oracle": "Li onsimes 9ment la tⸯre",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_d5121a1d",
+      "prediction": "x",
+      "oracle": "L",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_90819207",
+      "prediction": "xvuy. capitlet cz.ux.",
+      "oracle": "xviii. capitles ⁊ .ix.",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_88ebf477",
+      "prediction": "5",
+      "oracle": "L",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_39243a56",
+      "prediction": "sinc",
+      "oracle": "sont",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_d5ff03b8",
+      "prediction": "u ı no e uimes por coi aigbe",
+      "oracle": "Li noevimes porcoi aighe",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_5dbdafa8",
+      "prediction": "soit",
+      "oracle": "sont",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_eb1fe32a",
+      "prediction": "i dousiges coñt laĩre",
+      "oracle": "Li dousimes comt̄ la tⸯre",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_2c07d43a",
+      "prediction": "e i qͣnsimes ꝯnẽvens",
+      "oracle": "Li qⁱnsimes 9mt̄ vens",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_6cba067d",
+      "prediction": "Tisesimes ꝯment laveys",
+      "oracle": "Li sesimes 9ment li vent",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_bdcd00ac",
+      "prediction": "naurent",
+      "oracle": "naissent",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_afb94f21",
+      "prediction": "usont arres",
+      "oracle": "i sont asises",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_e23ee4fc",
+      "prediction": "atience ꝑtie ꝯtient",
+      "oracle": "a tierce քtie 9tient",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_75d1eecb",
+      "prediction": "u ͣtiers ꝯment leffliꝑse",
+      "oracle": "Li tiers 9ment lesclipse",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    },
+    {
+      "line_id": "eSc_line_94eaeefc",
+      "prediction": "t usolei",
+      "oracle": "dou soleil",
+      "precision": 0.0,
+      "rappel": 0.0,
+      "f1": 0.0,
+      "has_abbreviation": false
+    }
+  ]
+}
