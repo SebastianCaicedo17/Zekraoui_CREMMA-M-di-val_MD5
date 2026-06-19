@@ -1,0 +1,4799 @@
+{
+  "meta": {
+    "dict_source": "nlp\\dictionnaire_medieval.json",
+    "nb_formes_lexique": 15837,
+    "nb_formes_verifiees": 4346,
+    "freq_min": 2
+  },
+  "metriques": {
+    "taux_couverture": 0.3424,
+    "taux_couverture_sans_abbrev": 0.3441,
+    "taux_couverture_avec_abbrev": 0.2497,
+    "nb_in_dict": 1488,
+    "nb_hors_dict": 2858
+  },
+  "repartition_hors_dict": {
+    "abreviation_non_developpee": 26,
+    "forme_rare_ou_dialectale": 1247,
+    "fragment": 108,
+    "probable_erreur_htr": 1477
+  },
+  "formes_hors_dict": [
+    {
+      "forme": "e",
+      "freq": 777,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "p",
+      "freq": 326,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "d",
+      "freq": 322,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "u",
+      "freq": 222,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "n",
+      "freq": 209,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "c",
+      "freq": 205,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "q",
+      "freq": 141,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "o",
+      "freq": 140,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ant",
+      "freq": 120,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "k",
+      "freq": 107,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "j",
+      "freq": 98,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ar",
+      "freq": 98,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gant",
+      "freq": 95,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "f",
+      "freq": 88,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "luy",
+      "freq": 85,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fut",
+      "freq": 78,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "v⁹",
+      "freq": 73,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "młt",
+      "freq": 60,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "b",
+      "freq": 56,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "q'",
+      "freq": 54,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "quãt",
+      "freq": 54,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ung",
+      "freq": 51,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "reis",
+      "freq": 48,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ceulx",
+      "freq": 43,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "grand",
+      "freq": 42,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "r",
+      "freq": 41,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "lur",
+      "freq": 37,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "v",
+      "freq": 36,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mays",
+      "freq": 36,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "g",
+      "freq": 35,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sun",
+      "freq": 35,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "rei",
+      "freq": 35,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "jo",
+      "freq": 34,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "otinel",
+      "freq": 32,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "aultres",
+      "freq": 31,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sãs",
+      "freq": 31,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "seit",
+      "freq": 30,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "nef",
+      "freq": 30,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dedans",
+      "freq": 30,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uis",
+      "freq": 29,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ais",
+      "freq": 29,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "monlt",
+      "freq": 29,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "eneas",
+      "freq": 28,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ẽ",
+      "freq": 27,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "veit",
+      "freq": 27,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "toy",
+      "freq": 27,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nel",
+      "freq": 27,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ist",
+      "freq": 27,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "colp",
+      "freq": 26,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "cõe",
+      "freq": 26,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sũt",
+      "freq": 25,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ke",
+      "freq": 25,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "eis",
+      "freq": 25,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ames",
+      "freq": 25,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "garsie",
+      "freq": 24,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "healme",
+      "freq": 24,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "qant",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ort",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "feit",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "rollant",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "moy",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dieux",
+      "freq": 23,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "charle",
+      "freq": 22,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "paien",
+      "freq": 21,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "halberc",
+      "freq": 21,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "celuy",
+      "freq": 21,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "enee",
+      "freq": 21,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fiert",
+      "freq": 20,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "l't",
+      "freq": 20,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "beste",
+      "freq": 20,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ki",
+      "freq": 20,
+      "categorie": "fragment",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "escu",
+      "freq": 20,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "hault",
+      "freq": 20,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "noz",
+      "freq": 19,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mei",
+      "freq": 19,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "chevaler",
+      "freq": 19,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "soubz",
+      "freq": 19,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ace",
+      "freq": 18,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "h",
+      "freq": 18,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "prent",
+      "freq": 18,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "port",
+      "freq": 18,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "beau",
+      "freq": 18,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ainsin",
+      "freq": 18,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "cz",
+      "freq": 17,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "eit",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "pur",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uont",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "quoy",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "met",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "franceis",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "uoye",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ioye",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uoix",
+      "freq": 17,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ior",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "out",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "feu",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "lei",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ogier",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "clarel",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "lieux",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "grãs",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "boys",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "foys",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ainsy",
+      "freq": 16,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "poeste",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "pl'",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "valt",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "eulx",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "doulce",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "peult",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "haulte",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fleuue",
+      "freq": 15,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ı",
+      "freq": 14,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "st",
+      "freq": 14,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "n⁹",
+      "freq": 14,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "dessus",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oiseaus",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "legier",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "place",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fortune",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "charles",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "kar",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ollant",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "aultre",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tor",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "puys",
+      "freq": 14,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "clere",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ilz",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mũ",
+      "freq": 13,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "oi",
+      "freq": 13,
+      "categorie": "fragment",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "paen",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "escrie",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sarazin",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "desir",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "asses",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "umbres",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "undes",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "grãde",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "auoyt",
+      "freq": 13,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gre",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nue",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ous",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ers",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sort",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oultre",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "talent",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "nun",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "rollãt",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "rodlant",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ut",
+      "freq": 12,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "deit",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "doulx",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "champs",
+      "freq": 12,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ptie",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "p᷑",
+      "freq": 11,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "maiz",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "cler",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "qir",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "gloire",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "iors",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "od",
+      "freq": 11,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "colps",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "nom",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "kil",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "hũme",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "espee",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "durendal",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "salt",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "coup",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "rochier",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sang",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "leans",
+      "freq": 11,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dela",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "in",
+      "freq": 10,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "i.",
+      "freq": 10,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "dous",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "merveille",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "per",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uertu",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oliv͛",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "juste",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mont",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uent",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uices",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dargent",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "amer",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fois",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fremis",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "mahumet",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "destrer",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sis",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "fei",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "chevalerie",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sunt",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "larel",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "cy",
+      "freq": 10,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mye",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "telle",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nefz",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "aussy",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "myeulx",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "courir",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "pouer",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sybille",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "payne",
+      "freq": 10,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "levez",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "tort",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mũt",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ver",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dons",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mõde",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sei",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ost",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "encontre",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "deuons",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "deceu",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "marie",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "grãt",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "pais",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "feust",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tuz",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "hũmes",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mahun",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "treis",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "altre",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "qatre",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "broche",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ueit",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gist",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "selon",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "digne",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tieulx",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "doncques",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tousiours",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "maulx",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "troye",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "acoup",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "eaulx",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "print",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uoyr",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tyeulx",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "troys",
+      "freq": 9,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "conm̃t",
+      "freq": 8,
+      "categorie": "abreviation_non_developpee",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "unt",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nouveles",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "lieve",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "peis",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ii",
+      "freq": 8,
+      "categorie": "fragment",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fiz",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "nobilite",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "done",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "lassus",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "plaine",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "meniere",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "ns",
+      "freq": 8,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "repos",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "poure",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fere",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "curt",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "dreit",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "tinel",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "halt",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sescrie",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "lat",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "tei",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "riant",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "comant",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "curecuse",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "curteis",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "otes",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ny",
+      "freq": 8,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uens",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "troyans",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uray",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uoy",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "consors",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "grãd",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "large",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "paynes",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "rameau",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uye",
+      "freq": 8,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "x",
+      "freq": 7,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "die",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nõbre",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "devãt",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "u͛",
+      "freq": 7,
+      "categorie": "fragment",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "chant",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "qans",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "san",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "v͛tu",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "der",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ome",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "uie",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nobles.",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "dignite",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "lair",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ntre",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mest",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nsi",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "noer",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "v͛s",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "trenchant",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mẽbres",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ores",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "meint",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "paiens",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "vũt",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "paris",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "altres",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "passez",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "colpez",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ostre",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "tute",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "belisent",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "bucle",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "daneis",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "luisant",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "trenche",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "chiet",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mailles",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "vassal",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ber",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "paens",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "appelle",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ya",
+      "freq": 7,
+      "categorie": "fragment",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mesmes",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "labeur",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "pourtãt",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "yeulx",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "diuine",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "chacun",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "auirons",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "parolle",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "diuin",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ordre",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "quon",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "legiere",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "longue",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uoz",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "meintz",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "turbe",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "laultre",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "auãt",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "allors",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ioyes",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "course",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "layr",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "motz",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "glayue",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "loeil",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ainssin",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ycy",
+      "freq": 7,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "contient",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ps",
+      "freq": 6,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "eve",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "parlez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "amz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "pely",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "nie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gn͛s",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "mus",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "queie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "neu",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "seie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "serrez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "must",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "mat",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "uers",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nilt",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "ceur",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "anon",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "tue",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "faiz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ueue",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "denfer",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oste",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ors",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "uraie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "sout",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "iuge",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "foiz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "pimier",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "arbre",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "cruel",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nrẽ",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "eaue",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oisel",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "veritei",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "pierre",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ins",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "nr̃e",
+      "freq": 6,
+      "categorie": "abreviation_non_developpee",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "dens",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "durement",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "maluais",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "oeures",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "uenir",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "riue",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "vis",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "iadis",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "seulement",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "amor",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fiere",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "barbe",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "reí",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "meie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "folie",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "donez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "harles",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "iz",
+      "freq": 6,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "hardi",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "feiz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ernez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "bant",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "doner",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "p͛s",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "laltre",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "prez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "formẽt",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "leve",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ranceis",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ẽperere",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "estez",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "chevalers",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "fiers",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "esuz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "oliver",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "labati",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "tresturne",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ferir",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sapiẽ",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "myen",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "desire",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "lignage",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "getta",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "respond",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "telles",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "u͛tu",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "loyer",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tristes",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "iay",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tourne",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "aultiers",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "pourtant",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ioyeulx",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "menesteus",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gyas",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "couraige",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "rochiers",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "cloante",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "brief",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "lung",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "quilz",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "qua",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "amy",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "prophete",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "portes",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tenebreux",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "meĩte",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "hores",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "estoyt",
+      "freq": 6,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "nis",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "mers",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "gi",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "lamer",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ıe",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ad",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "sique",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "man",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "toi",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "qar",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "ure",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "to͛",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "dant",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "trouble",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "ha",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "cont",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "enuie",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "fins",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uo",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "u.",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "sue",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "queu",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "chevaliers",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "fiance",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "um",
+      "freq": 5,
+      "categorie": "fragment",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "maine",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "en.",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "u͛s",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "liu",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "unit",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "quier",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "jont",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf"
+      ]
+    },
+    {
+      "forme": "nombre",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uain",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "uen",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "sele",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "ail",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "tun",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    },
+    {
+      "forme": "pure",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": false,
+      "manuscrits": [
+        "bnf",
+        "pennsylvania"
+      ]
+    },
+    {
+      "forme": "descent",
+      "freq": 5,
+      "categorie": "forme_rare_ou_dialectale",
+      "has_abbreviation_chars": true,
+      "manuscrits": [
+        "bnf",
+        "bodmer"
+      ]
+    }
+  ]
+}

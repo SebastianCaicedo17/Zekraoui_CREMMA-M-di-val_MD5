@@ -1,0 +1,1359 @@
+{
+  "meta": {
+    "nb_chars_predictions": 96,
+    "nb_chars_oracle": 114,
+    "nb_chars_total": 131,
+    "nb_manquants_modele": 35,
+    "source_predictions": "dataset_nlp\\val.json",
+    "source_oracle": "dataset_nlp\\val_oracle.json"
+  },
+  "manquants_modele": [
+    "ꝓ",
+    "̄",
+    "̇",
+    "̉",
+    "̅",
+    "ͦ",
+    "ͭ",
+    "ᷤ",
+    "̊",
+    "ᷣ",
+    ":",
+    "&",
+    "’",
+    "ẏ",
+    "ō",
+    "ⸯ",
+    "ⁱ",
+    "ᵃ",
+    "ē",
+    "ị",
+    "ỹ",
+    "ք",
+    "ā",
+    "ᵉ",
+    "ˢ",
+    "ī",
+    "ū",
+    "ḍ",
+    "ẹ",
+    "ẻ",
+    "ṭ",
+    "ọ",
+    "",
+    "﻿",
+    ""
+  ],
+  "chars": [
+    {
+      "char": "ꝯ",
+      "codepoint": "U+A76F",
+      "unicode_name": "LATIN SMALL LETTER CON",
+      "categorie": "abreviation_medievale",
+      "freq_predictions": 160,
+      "freq_oracle": 132,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "ꝰ",
+      "codepoint": "U+A770",
+      "unicode_name": "MODIFIER LETTER US",
+      "categorie": "abreviation_medievale",
+      "freq_predictions": 4,
+      "freq_oracle": 52,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "ꝑ",
+      "codepoint": "U+A751",
+      "unicode_name": "LATIN SMALL LETTER P WITH STROKE THROUGH DESCENDER",
+      "categorie": "abreviation_medievale",
+      "freq_predictions": 128,
+      "freq_oracle": 20,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "ꝓ",
+      "codepoint": "U+A753",
+      "unicode_name": "LATIN SMALL LETTER P WITH FLOURISH",
+      "categorie": "abreviation_medievale",
+      "freq_predictions": 0,
+      "freq_oracle": 3,
+      "in_cremmalab": true,
+      "missing_from_model": true
+    },
+    {
+      "char": "ͣ",
+      "codepoint": "U+0363",
+      "unicode_name": "COMBINING LATIN SMALL LETTER A",
+      "categorie": "combining_mark",
+      "freq_predictions": 99,
+      "freq_oracle": 115,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "̃",
+      "codepoint": "U+0303",
+      "unicode_name": "COMBINING TILDE",
+      "categorie": "combining_mark",
+      "freq_predictions": 154,
+      "freq_oracle": 39,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "̄",
+      "codepoint": "U+0304",
+      "unicode_name": "COMBINING MACRON",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 39,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ͥ",
+      "codepoint": "U+0365",
+      "unicode_name": "COMBINING LATIN SMALL LETTER I",
+      "categorie": "combining_mark",
+      "freq_predictions": 57,
+      "freq_oracle": 15,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "̇",
+      "codepoint": "U+0307",
+      "unicode_name": "COMBINING DOT ABOVE",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 10,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ͤ",
+      "codepoint": "U+0364",
+      "unicode_name": "COMBINING LATIN SMALL LETTER E",
+      "categorie": "combining_mark",
+      "freq_predictions": 1,
+      "freq_oracle": 9,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "̉",
+      "codepoint": "U+0309",
+      "unicode_name": "COMBINING HOOK ABOVE",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 6,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "̅",
+      "codepoint": "U+0305",
+      "unicode_name": "COMBINING OVERLINE",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 3,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ͦ",
+      "codepoint": "U+0366",
+      "unicode_name": "COMBINING LATIN SMALL LETTER O",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 3,
+      "in_cremmalab": true,
+      "missing_from_model": true
+    },
+    {
+      "char": "ͬ",
+      "codepoint": "U+036C",
+      "unicode_name": "COMBINING LATIN SMALL LETTER R",
+      "categorie": "combining_mark",
+      "freq_predictions": 20,
+      "freq_oracle": 3,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "᷑",
+      "codepoint": "U+1DD1",
+      "unicode_name": "COMBINING UR ABOVE",
+      "categorie": "combining_mark",
+      "freq_predictions": 6,
+      "freq_oracle": 3,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "ͭ",
+      "codepoint": "U+036D",
+      "unicode_name": "COMBINING LATIN SMALL LETTER T",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": true,
+      "missing_from_model": true
+    },
+    {
+      "char": "ᷤ",
+      "codepoint": "U+1DE4",
+      "unicode_name": "COMBINING LATIN SMALL LETTER S",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": true,
+      "missing_from_model": true
+    },
+    {
+      "char": "̊",
+      "codepoint": "U+030A",
+      "unicode_name": "COMBINING RING ABOVE",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "͛",
+      "codepoint": "U+035B",
+      "unicode_name": "COMBINING ZIGZAG ABOVE",
+      "categorie": "combining_mark",
+      "freq_predictions": 212,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ᷣ",
+      "codepoint": "U+1DE3",
+      "unicode_name": "COMBINING LATIN SMALL LETTER R ROTUNDA",
+      "categorie": "combining_mark",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "́",
+      "codepoint": "U+0301",
+      "unicode_name": "COMBINING ACUTE ACCENT",
+      "categorie": "combining_mark",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ͅ",
+      "codepoint": "U+0345",
+      "unicode_name": "COMBINING GREEK YPOGEGRAMMENI",
+      "categorie": "combining_mark",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": ".",
+      "codepoint": "U+002E",
+      "unicode_name": "FULL STOP",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 779,
+      "freq_oracle": 1432,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "⁊",
+      "codepoint": "U+204A",
+      "unicode_name": "TIRONIAN SIGN ET",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 136,
+      "freq_oracle": 297,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "'",
+      "codepoint": "U+0027",
+      "unicode_name": "APOSTROPHE",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 31,
+      "freq_oracle": 105,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": ":",
+      "codepoint": "U+003A",
+      "unicode_name": "COLON",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 0,
+      "freq_oracle": 11,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "&",
+      "codepoint": "U+0026",
+      "unicode_name": "AMPERSAND",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "’",
+      "codepoint": "U+2019",
+      "unicode_name": "RIGHT SINGLE QUOTATION MARK",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "·",
+      "codepoint": "U+00B7",
+      "unicode_name": "MIDDLE DOT",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 396,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "⁅",
+      "codepoint": "U+2045",
+      "unicode_name": "LEFT SQUARE BRACKET WITH QUILL",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 8,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "⁘",
+      "codepoint": "U+2058",
+      "unicode_name": "FOUR DOT PUNCTUATION",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "�",
+      "codepoint": "U+FFFD",
+      "unicode_name": "REPLACEMENT CHARACTER",
+      "categorie": "ponctuation_speciale",
+      "freq_predictions": 57,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "e",
+      "codepoint": "U+0065",
+      "unicode_name": "LATIN SMALL LETTER E",
+      "categorie": "latin_standard",
+      "freq_predictions": 8999,
+      "freq_oracle": 8813,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "i",
+      "codepoint": "U+0069",
+      "unicode_name": "LATIN SMALL LETTER I",
+      "categorie": "latin_standard",
+      "freq_predictions": 5187,
+      "freq_oracle": 5368,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "s",
+      "codepoint": "U+0073",
+      "unicode_name": "LATIN SMALL LETTER S",
+      "categorie": "latin_standard",
+      "freq_predictions": 4515,
+      "freq_oracle": 4656,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "t",
+      "codepoint": "U+0074",
+      "unicode_name": "LATIN SMALL LETTER T",
+      "categorie": "latin_standard",
+      "freq_predictions": 4185,
+      "freq_oracle": 4156,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "u",
+      "codepoint": "U+0075",
+      "unicode_name": "LATIN SMALL LETTER U",
+      "categorie": "latin_standard",
+      "freq_predictions": 4331,
+      "freq_oracle": 3876,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "n",
+      "codepoint": "U+006E",
+      "unicode_name": "LATIN SMALL LETTER N",
+      "categorie": "latin_standard",
+      "freq_predictions": 3480,
+      "freq_oracle": 3512,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "a",
+      "codepoint": "U+0061",
+      "unicode_name": "LATIN SMALL LETTER A",
+      "categorie": "latin_standard",
+      "freq_predictions": 3221,
+      "freq_oracle": 3383,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "r",
+      "codepoint": "U+0072",
+      "unicode_name": "LATIN SMALL LETTER R",
+      "categorie": "latin_standard",
+      "freq_predictions": 3285,
+      "freq_oracle": 3204,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "o",
+      "codepoint": "U+006F",
+      "unicode_name": "LATIN SMALL LETTER O",
+      "categorie": "latin_standard",
+      "freq_predictions": 3059,
+      "freq_oracle": 3107,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "l",
+      "codepoint": "U+006C",
+      "unicode_name": "LATIN SMALL LETTER L",
+      "categorie": "latin_standard",
+      "freq_predictions": 2917,
+      "freq_oracle": 3058,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "d",
+      "codepoint": "U+0064",
+      "unicode_name": "LATIN SMALL LETTER D",
+      "categorie": "latin_standard",
+      "freq_predictions": 1659,
+      "freq_oracle": 1664,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "m",
+      "codepoint": "U+006D",
+      "unicode_name": "LATIN SMALL LETTER M",
+      "categorie": "latin_standard",
+      "freq_predictions": 1362,
+      "freq_oracle": 1505,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "c",
+      "codepoint": "U+0063",
+      "unicode_name": "LATIN SMALL LETTER C",
+      "categorie": "latin_standard",
+      "freq_predictions": 1338,
+      "freq_oracle": 1269,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "p",
+      "codepoint": "U+0070",
+      "unicode_name": "LATIN SMALL LETTER P",
+      "categorie": "latin_standard",
+      "freq_predictions": 1028,
+      "freq_oracle": 1080,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "q",
+      "codepoint": "U+0071",
+      "unicode_name": "LATIN SMALL LETTER Q",
+      "categorie": "latin_standard",
+      "freq_predictions": 873,
+      "freq_oracle": 867,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "f",
+      "codepoint": "U+0066",
+      "unicode_name": "LATIN SMALL LETTER F",
+      "categorie": "latin_standard",
+      "freq_predictions": 658,
+      "freq_oracle": 672,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "v",
+      "codepoint": "U+0076",
+      "unicode_name": "LATIN SMALL LETTER V",
+      "categorie": "latin_standard",
+      "freq_predictions": 618,
+      "freq_oracle": 662,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "z",
+      "codepoint": "U+007A",
+      "unicode_name": "LATIN SMALL LETTER Z",
+      "categorie": "latin_standard",
+      "freq_predictions": 501,
+      "freq_oracle": 509,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "h",
+      "codepoint": "U+0068",
+      "unicode_name": "LATIN SMALL LETTER H",
+      "categorie": "latin_standard",
+      "freq_predictions": 418,
+      "freq_oracle": 395,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "g",
+      "codepoint": "U+0067",
+      "unicode_name": "LATIN SMALL LETTER G",
+      "categorie": "latin_standard",
+      "freq_predictions": 405,
+      "freq_oracle": 393,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "b",
+      "codepoint": "U+0062",
+      "unicode_name": "LATIN SMALL LETTER B",
+      "categorie": "latin_standard",
+      "freq_predictions": 341,
+      "freq_oracle": 330,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "y",
+      "codepoint": "U+0079",
+      "unicode_name": "LATIN SMALL LETTER Y",
+      "categorie": "latin_standard",
+      "freq_predictions": 225,
+      "freq_oracle": 212,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "E",
+      "codepoint": "U+0045",
+      "unicode_name": "LATIN CAPITAL LETTER E",
+      "categorie": "latin_standard",
+      "freq_predictions": 185,
+      "freq_oracle": 189,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "S",
+      "codepoint": "U+0053",
+      "unicode_name": "LATIN CAPITAL LETTER S",
+      "categorie": "latin_standard",
+      "freq_predictions": 158,
+      "freq_oracle": 172,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "D",
+      "codepoint": "U+0044",
+      "unicode_name": "LATIN CAPITAL LETTER D",
+      "categorie": "latin_standard",
+      "freq_predictions": 74,
+      "freq_oracle": 124,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "x",
+      "codepoint": "U+0078",
+      "unicode_name": "LATIN SMALL LETTER X",
+      "categorie": "latin_standard",
+      "freq_predictions": 83,
+      "freq_oracle": 93,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "L",
+      "codepoint": "U+004C",
+      "unicode_name": "LATIN CAPITAL LETTER L",
+      "categorie": "latin_standard",
+      "freq_predictions": 28,
+      "freq_oracle": 91,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ẽ",
+      "codepoint": "U+1EBD",
+      "unicode_name": "LATIN SMALL LETTER E WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 46,
+      "freq_oracle": 89,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "õ",
+      "codepoint": "U+00F5",
+      "unicode_name": "LATIN SMALL LETTER O WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 64,
+      "freq_oracle": 87,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "C",
+      "codepoint": "U+0043",
+      "unicode_name": "LATIN CAPITAL LETTER C",
+      "categorie": "latin_standard",
+      "freq_predictions": 68,
+      "freq_oracle": 86,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "Q",
+      "codepoint": "U+0051",
+      "unicode_name": "LATIN CAPITAL LETTER Q",
+      "categorie": "latin_standard",
+      "freq_predictions": 49,
+      "freq_oracle": 78,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "M",
+      "codepoint": "U+004D",
+      "unicode_name": "LATIN CAPITAL LETTER M",
+      "categorie": "latin_standard",
+      "freq_predictions": 29,
+      "freq_oracle": 75,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "I",
+      "codepoint": "U+0049",
+      "unicode_name": "LATIN CAPITAL LETTER I",
+      "categorie": "latin_standard",
+      "freq_predictions": 36,
+      "freq_oracle": 48,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "A",
+      "codepoint": "U+0041",
+      "unicode_name": "LATIN CAPITAL LETTER A",
+      "categorie": "latin_standard",
+      "freq_predictions": 83,
+      "freq_oracle": 46,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "P",
+      "codepoint": "U+0050",
+      "unicode_name": "LATIN CAPITAL LETTER P",
+      "categorie": "latin_standard",
+      "freq_predictions": 20,
+      "freq_oracle": 31,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ẏ",
+      "codepoint": "U+1E8F",
+      "unicode_name": "LATIN SMALL LETTER Y WITH DOT ABOVE",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 22,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "O",
+      "codepoint": "U+004F",
+      "unicode_name": "LATIN CAPITAL LETTER O",
+      "categorie": "latin_standard",
+      "freq_predictions": 44,
+      "freq_oracle": 20,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ã",
+      "codepoint": "U+00E3",
+      "unicode_name": "LATIN SMALL LETTER A WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 16,
+      "freq_oracle": 20,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ō",
+      "codepoint": "U+014D",
+      "unicode_name": "LATIN SMALL LETTER O WITH MACRON",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 19,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ⸯ",
+      "codepoint": "U+2E2F",
+      "unicode_name": "VERTICAL TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 17,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "H",
+      "codepoint": "U+0048",
+      "unicode_name": "LATIN CAPITAL LETTER H",
+      "categorie": "latin_standard",
+      "freq_predictions": 2,
+      "freq_oracle": 15,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ⁱ",
+      "codepoint": "U+2071",
+      "unicode_name": "SUPERSCRIPT LATIN SMALL LETTER I",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 15,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "J",
+      "codepoint": "U+004A",
+      "unicode_name": "LATIN CAPITAL LETTER J",
+      "categorie": "latin_standard",
+      "freq_predictions": 8,
+      "freq_oracle": 14,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ᵃ",
+      "codepoint": "U+1D43",
+      "unicode_name": "MODIFIER LETTER SMALL A",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 14,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "B",
+      "codepoint": "U+0042",
+      "unicode_name": "LATIN CAPITAL LETTER B",
+      "categorie": "latin_standard",
+      "freq_predictions": 11,
+      "freq_oracle": 13,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ē",
+      "codepoint": "U+0113",
+      "unicode_name": "LATIN SMALL LETTER E WITH MACRON",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 13,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ị",
+      "codepoint": "U+1ECB",
+      "unicode_name": "LATIN SMALL LETTER I WITH DOT BELOW",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 13,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ỹ",
+      "codepoint": "U+1EF9",
+      "unicode_name": "LATIN SMALL LETTER Y WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 13,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ĩ",
+      "codepoint": "U+0129",
+      "unicode_name": "LATIN SMALL LETTER I WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 2,
+      "freq_oracle": 12,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "G",
+      "codepoint": "U+0047",
+      "unicode_name": "LATIN CAPITAL LETTER G",
+      "categorie": "latin_standard",
+      "freq_predictions": 9,
+      "freq_oracle": 11,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "k",
+      "codepoint": "U+006B",
+      "unicode_name": "LATIN SMALL LETTER K",
+      "categorie": "latin_standard",
+      "freq_predictions": 14,
+      "freq_oracle": 11,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "N",
+      "codepoint": "U+004E",
+      "unicode_name": "LATIN CAPITAL LETTER N",
+      "categorie": "latin_standard",
+      "freq_predictions": 14,
+      "freq_oracle": 10,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ք",
+      "codepoint": "U+0584",
+      "unicode_name": "ARMENIAN SMALL LETTER KEH",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 10,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ā",
+      "codepoint": "U+0101",
+      "unicode_name": "LATIN SMALL LETTER A WITH MACRON",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 9,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "T",
+      "codepoint": "U+0054",
+      "unicode_name": "LATIN CAPITAL LETTER T",
+      "categorie": "latin_standard",
+      "freq_predictions": 11,
+      "freq_oracle": 8,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "j",
+      "codepoint": "U+006A",
+      "unicode_name": "LATIN SMALL LETTER J",
+      "categorie": "latin_standard",
+      "freq_predictions": 46,
+      "freq_oracle": 7,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ᵉ",
+      "codepoint": "U+1D49",
+      "unicode_name": "MODIFIER LETTER SMALL E",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 7,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "F",
+      "codepoint": "U+0046",
+      "unicode_name": "LATIN CAPITAL LETTER F",
+      "categorie": "latin_standard",
+      "freq_predictions": 10,
+      "freq_oracle": 6,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ñ",
+      "codepoint": "U+00F1",
+      "unicode_name": "LATIN SMALL LETTER N WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 2,
+      "freq_oracle": 6,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ˢ",
+      "codepoint": "U+02E2",
+      "unicode_name": "MODIFIER LETTER SMALL S",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 6,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "R",
+      "codepoint": "U+0052",
+      "unicode_name": "LATIN CAPITAL LETTER R",
+      "categorie": "latin_standard",
+      "freq_predictions": 3,
+      "freq_oracle": 5,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "V",
+      "codepoint": "U+0056",
+      "unicode_name": "LATIN CAPITAL LETTER V",
+      "categorie": "latin_standard",
+      "freq_predictions": 7,
+      "freq_oracle": 5,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "w",
+      "codepoint": "U+0077",
+      "unicode_name": "LATIN SMALL LETTER W",
+      "categorie": "latin_standard",
+      "freq_predictions": 6,
+      "freq_oracle": 5,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ī",
+      "codepoint": "U+012B",
+      "unicode_name": "LATIN SMALL LETTER I WITH MACRON",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 5,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "U",
+      "codepoint": "U+0055",
+      "unicode_name": "LATIN CAPITAL LETTER U",
+      "categorie": "latin_standard",
+      "freq_predictions": 10,
+      "freq_oracle": 3,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "K",
+      "codepoint": "U+004B",
+      "unicode_name": "LATIN CAPITAL LETTER K",
+      "categorie": "latin_standard",
+      "freq_predictions": 1,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ū",
+      "codepoint": "U+016B",
+      "unicode_name": "LATIN SMALL LETTER U WITH MACRON",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ḍ",
+      "codepoint": "U+1E0D",
+      "unicode_name": "LATIN SMALL LETTER D WITH DOT BELOW",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ẹ",
+      "codepoint": "U+1EB9",
+      "unicode_name": "LATIN SMALL LETTER E WITH DOT BELOW",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ẻ",
+      "codepoint": "U+1EBB",
+      "unicode_name": "LATIN SMALL LETTER E WITH HOOK ABOVE",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ṭ",
+      "codepoint": "U+1E6D",
+      "unicode_name": "LATIN SMALL LETTER T WITH DOT BELOW",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "ọ",
+      "codepoint": "U+1ECD",
+      "unicode_name": "LATIN SMALL LETTER O WITH DOT BELOW",
+      "categorie": "latin_standard",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "X",
+      "codepoint": "U+0058",
+      "unicode_name": "LATIN CAPITAL LETTER X",
+      "categorie": "latin_standard",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "Y",
+      "codepoint": "U+0059",
+      "unicode_name": "LATIN CAPITAL LETTER Y",
+      "categorie": "latin_standard",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "Z",
+      "codepoint": "U+005A",
+      "unicode_name": "LATIN CAPITAL LETTER Z",
+      "categorie": "latin_standard",
+      "freq_predictions": 3,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "í",
+      "codepoint": "U+00ED",
+      "unicode_name": "LATIN SMALL LETTER I WITH ACUTE",
+      "categorie": "latin_standard",
+      "freq_predictions": 43,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ě",
+      "codepoint": "U+011B",
+      "unicode_name": "LATIN SMALL LETTER E WITH CARON",
+      "categorie": "latin_standard",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ı",
+      "codepoint": "U+0131",
+      "unicode_name": "LATIN SMALL LETTER DOTLESS I",
+      "categorie": "latin_standard",
+      "freq_predictions": 73,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "ł",
+      "codepoint": "U+0142",
+      "unicode_name": "LATIN SMALL LETTER L WITH STROKE",
+      "categorie": "latin_standard",
+      "freq_predictions": 35,
+      "freq_oracle": 0,
+      "in_cremmalab": true,
+      "missing_from_model": false
+    },
+    {
+      "char": "ũ",
+      "codepoint": "U+0169",
+      "unicode_name": "LATIN SMALL LETTER U WITH TILDE",
+      "categorie": "latin_standard",
+      "freq_predictions": 17,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": " ",
+      "codepoint": "U+0020",
+      "unicode_name": "SPACE",
+      "categorie": "autre",
+      "freq_predictions": 11735,
+      "freq_oracle": 11275,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "7",
+      "codepoint": "U+0037",
+      "unicode_name": "DIGIT SEVEN",
+      "categorie": "autre",
+      "freq_predictions": 1,
+      "freq_oracle": 39,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "9",
+      "codepoint": "U+0039",
+      "unicode_name": "DIGIT NINE",
+      "categorie": "autre",
+      "freq_predictions": 5,
+      "freq_oracle": 35,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+F158",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 79,
+      "freq_oracle": 26,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+E681",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 5,
+      "freq_oracle": 17,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "1",
+      "codepoint": "U+0031",
+      "unicode_name": "DIGIT ONE",
+      "categorie": "autre",
+      "freq_predictions": 8,
+      "freq_oracle": 8,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "0",
+      "codepoint": "U+0030",
+      "unicode_name": "DIGIT ZERO",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 3,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "6",
+      "codepoint": "U+0036",
+      "unicode_name": "DIGIT SIX",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 3,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+F038",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 0,
+      "freq_oracle": 3,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "2",
+      "codepoint": "U+0032",
+      "unicode_name": "DIGIT TWO",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "3",
+      "codepoint": "U+0033",
+      "unicode_name": "DIGIT THREE",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "4",
+      "codepoint": "U+0034",
+      "unicode_name": "DIGIT FOUR",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "8",
+      "codepoint": "U+0038",
+      "unicode_name": "DIGIT EIGHT",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "﻿",
+      "codepoint": "U+FEFF",
+      "unicode_name": "ZERO WIDTH NO-BREAK SPACE",
+      "categorie": "autre",
+      "freq_predictions": 0,
+      "freq_oracle": 2,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "5",
+      "codepoint": "U+0035",
+      "unicode_name": "DIGIT FIVE",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+E5DC",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 0,
+      "freq_oracle": 1,
+      "in_cremmalab": false,
+      "missing_from_model": true
+    },
+    {
+      "char": "⁹",
+      "codepoint": "U+2079",
+      "unicode_name": "SUPERSCRIPT NINE",
+      "categorie": "autre",
+      "freq_predictions": 2,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+E158",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    },
+    {
+      "char": "",
+      "codepoint": "U+E691",
+      "unicode_name": "INCONNU",
+      "categorie": "autre",
+      "freq_predictions": 1,
+      "freq_oracle": 0,
+      "in_cremmalab": false,
+      "missing_from_model": false
+    }
+  ]
+}
