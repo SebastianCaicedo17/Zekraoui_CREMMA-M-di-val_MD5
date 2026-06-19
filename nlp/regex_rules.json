@@ -1,0 +1,680 @@
+{
+  "source": "table.csv + CONVENTIONS_TRANSCRIPTION.md",
+  "nb_regles_diplomatique": 20,
+  "nb_regles_normalise_only": 85,
+  "nb_regles_manuelles": 6,
+  "regles": [
+    {
+      "pattern": "Á",
+      "replacement": "A",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "V",
+      "replacement": "U",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "v",
+      "replacement": "u",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "J",
+      "replacement": "I",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "j",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ê",
+      "replacement": "e",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "í",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ŧ",
+      "replacement": "t",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ẏ",
+      "replacement": "y",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ⸯ",
+      "replacement": "er",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "io",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "̊",
+      "replacement": "o",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "᷑",
+      "replacement": "ur",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "̾",
+      "replacement": "er",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "͛",
+      "replacement": "er",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "̉",
+      "replacement": "er",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "_",
+      "replacement": "-",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "–",
+      "replacement": "-",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": ";",
+      "replacement": ":",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "·",
+      "replacement": ".",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "’",
+      "replacement": "re",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "“",
+      "replacement": "\"",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "”",
+      "replacement": "\"",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "«",
+      "replacement": "\"",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "»",
+      "replacement": "\"",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "⁋",
+      "replacement": "¶",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "⁊",
+      "replacement": "et",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "•",
+      "replacement": ".",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "°",
+      "replacement": "o",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "÷",
+      "replacement": "est",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "¬",
+      "replacement": "-",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "∻",
+      "replacement": "est",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "⋅",
+      "replacement": ".",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "◌̧",
+      "replacement": "¸",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "◌ᷠ",
+      "replacement": "n",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "◌ͮ",
+      "replacement": "v",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "⁹",
+      "replacement": "us",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͣ",
+      "replacement": "a",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ᵃ",
+      "replacement": "a",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ᷓ",
+      "replacement": "a",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ɑ",
+      "replacement": "a",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͨ",
+      "replacement": "c",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ḍ",
+      "replacement": "d",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ꝺ",
+      "replacement": "d",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "đ",
+      "replacement": "d",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͤ",
+      "replacement": "e",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ᵉ",
+      "replacement": "e",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ﬀ",
+      "replacement": "ff",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ﬂ",
+      "replacement": "fl",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ħ",
+      "replacement": "h",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͥ",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ⁱ",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "î",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ı",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ȷ",
+      "replacement": "j",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ł",
+      "replacement": "l",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͫ",
+      "replacement": "m",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ͦ",
+      "replacement": "o",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ᵒ",
+      "replacement": "o",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ô",
+      "replacement": "o",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ꝑ",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "Ꝑ",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ꝓ",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "Ꝓ",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ꝙ",
+      "replacement": "q",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ͬ",
+      "replacement": "r",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ᷣ",
+      "replacement": "r",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ʳ",
+      "replacement": "r",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ꝛ",
+      "replacement": "r",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ɼ",
+      "replacement": "r",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ˢ",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ᷤ",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ſ",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ẜ",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ͭ",
+      "replacement": "t",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ͧ",
+      "replacement": "u",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ũ",
+      "replacement": "u",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "̽",
+      "replacement": "x",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ỹ",
+      "replacement": "y",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ʑ",
+      "replacement": "z",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ƺ",
+      "replacement": "z",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "᷒",
+      "replacement": "us",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ꝯ",
+      "replacement": "con",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "ꝰ",
+      "replacement": "us",
+      "source": "table.csv",
+      "mode": "diplomatique"
+    },
+    {
+      "pattern": "α",
+      "replacement": "a",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "β",
+      "replacement": "b",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "δ",
+      "replacement": "d",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ζ",
+      "replacement": "z",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ι",
+      "replacement": "i",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "κ",
+      "replacement": "k",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "Λ",
+      "replacement": "L",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "τ",
+      "replacement": "t",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "ք",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "n",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "p",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "q",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "ar",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "s",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "et",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "us",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "ET",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "E",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "",
+      "replacement": "est",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "̶",
+      "replacement": "-",
+      "source": "table.csv",
+      "mode": "normalise"
+    },
+    {
+      "pattern": "\\[---+\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "lacune"
+    },
+    {
+      "pattern": "\\[ill\\.\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "illisible"
+    },
+    {
+      "pattern": "\\[mot\\?\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "incertain"
+    },
+    {
+      "pattern": "\\[\\?\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "incertain"
+    },
+    {
+      "pattern": "\\[TC\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "titre_courant"
+    },
+    {
+      "pattern": "\\[\\.{3}[^\\]]*\\]",
+      "replacement": "",
+      "source": "conventions",
+      "mode": "les_deux",
+      "categorie": "lacune_estimee"
+    }
+  ]
+}

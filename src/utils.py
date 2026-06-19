@@ -3,7 +3,7 @@
 import json
 import os
 import random
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -63,7 +63,7 @@ def log_experience(
         ... )
     """
     entry = {
-        "timestamp": datetime.utcnow().isoformat() + "Z",
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "run_name": run_name,
         "hyperparams": hyperparams,
         "metrics": metrics,

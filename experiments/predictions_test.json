@@ -1,0 +1,2359 @@
+[
+  {
+    "line_id": "eSc_line_c95debe3",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ent al uenir par purte de pansee ⁊",
+    "prediction": "ent a venir par purte de pausee ⁊",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0882
+  },
+  {
+    "line_id": "eSc_line_04015718",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "pclr abstinance de cuer cors ⁊ par",
+    "prediction": "par abituance de cuer cors ⁊ par",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1471
+  },
+  {
+    "line_id": "eSc_line_d62de904",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "bones hueures. Il fui moinnes",
+    "prediction": "tones hueures . Il fin monures",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2414
+  },
+  {
+    "line_id": "eSc_line_fad57a33",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "longuem̃t ⁊fui ordenez aprestre",
+    "prediction": "longuem̃t ⁊ fui ordenez a prestre",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_3f9662b9",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊en sa iuuesce fui il ensoingniez",
+    "prediction": "⁊ en sa timesce fun il eusouigmiez",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2727
+  },
+  {
+    "line_id": "eSc_line_087c8482",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊ apris ⁊doctrinez de touz les hauz",
+    "prediction": "⁅�      ꝑns ⁊ doctrinez",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.7714
+  },
+  {
+    "line_id": "eSc_line_812f9466",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "maistres qui estoient a dont.Il sot",
+    "prediction": "maistres au escoient a dont · Il sõt",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2
+  },
+  {
+    "line_id": "eSc_line_65f7d2c3",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "greu ⁊latin ⁊ebreu ⁊araboi ⁊ cla",
+    "prediction": "greu  latin ⁊ ebreu ⁊ araloi",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3438
+  },
+  {
+    "line_id": "eSc_line_f638a6f8",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "deu ⁊plus com ne porroit conter",
+    "prediction": "ceu  plus com ne porroit couter",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_c2ae4b71",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "nsint cõ",
+    "prediction": "nismt c͛t",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.625
+  },
+  {
+    "line_id": "eSc_line_1755b21f",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "E",
+    "prediction": "",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 1.0
+  },
+  {
+    "line_id": "eSc_line_c7e19c77",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "il meis",
+    "prediction": "il meis",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_90bb4751",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "mes dist en",
+    "prediction": "mes dist en",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_d21d7a88",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "une de ses epistres com il sastudiast",
+    "prediction": "u ne de ces epistres conu il sa studíast",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1622
+  },
+  {
+    "line_id": "eSc_line_5a85a4f6",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "mont diligẽment es liures que li",
+    "prediction": "mont diligẽment es liures que li",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_834023ab",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "philosophe qui paien liauoient",
+    "prediction": "plilosophye qui paien hanoient",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1667
+  },
+  {
+    "line_id": "eSc_line_40e63f37",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "este auoient faiz une fieure le pͥst",
+    "prediction": "este auoieut par une fieure le ꝑt",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͥ"
+    ],
+    "cer": 0.1944
+  },
+  {
+    "line_id": "eSc_line_fafabeec",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "sodamem ⁊li reffroida en tel",
+    "prediction": "sodamem̃t ⁊ li resfroida en tel",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1429
+  },
+  {
+    "line_id": "eSc_line_a7f53cd3",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "meniere le cors com ne santoit en",
+    "prediction": "miemiere le cors com ne santoit en",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0606
+  },
+  {
+    "line_id": "eSc_line_ea70c86d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "Iui nule chalor masq: un pou li ba",
+    "prediction": "lui nule chalos masp uu pou liba",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1765
+  },
+  {
+    "line_id": "eSc_line_2cf525ea",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "toit li piz endemantiers ꝯ aꝑoiloit",
+    "prediction": "toit li piz endemiantiers ꝑ ayoiloit",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ",
+      "ꝑ"
+    ],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_1df4dd6e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "por faire son obseque ses esꝑiz fui",
+    "prediction": "por faire son obseque ses espiz fin",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝑ"
+    ],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_b2d9d3ce",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "portez deuant deu qui est souue",
+    "prediction": "ꝑrtez deuant deu qui est souue",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_8b779fdc",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "rains iuges ⁊li demanda len q̃ re",
+    "prediction": "rams juges ⁊ li demanda len qͥe",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.2121
+  },
+  {
+    "line_id": "eSc_line_a3939233",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "lions il estoit ⁊il respondi quil",
+    "prediction": "hons il estoit ⁊ il respondi quil",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_ee32f245",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "estoit crestiens.Et li iuges li dit",
+    "prediction": "estoit crestiens. Et li iuses lidit",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_9d46fa3b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "tu te manz.Tu es ciceroniens",
+    "prediction": "tu te maiz. Tu es ciceroniens",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0714
+  },
+  {
+    "line_id": "eSc_line_5e8e7396",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊nõ pas crestiens ou est tes tres",
+    "prediction": "⁅� nõ pas crestiens ou est tes tres",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_25ed851a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "sors. Ou est tes cuers; Quant il",
+    "prediction": "drs. Du est tes cuers · O. nant il",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2812
+  },
+  {
+    "line_id": "eSc_line_16e1ba85",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "oi ce il se teut ⁊fui ml't batuz par",
+    "prediction": "oi ce il se teut ⁊ fui nilt batuz par",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_d0bbacd8",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "les menistres ih'cͬst.Et endeman",
+    "prediction": "les meustres ilmíc͛t. Et endeman",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͬ"
+    ],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_45b111cd",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "tres com le batoit il pͬoit anostre",
+    "prediction": "tres com le batoit il ꝑoit anostre",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͬ"
+    ],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_97628356",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "soignor merci.li saint ange sage",
+    "prediction": "seignor merci. li saint ange sage",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_cb4a9653",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "noillerent deuant deu ⁊li empetͤ",
+    "prediction": "moilllement deuant deu ꝯli enuꝑt",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͤ"
+    ],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_d6b7d94e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "rent pardon.En tel meniere q̄",
+    "prediction": "reut parton · En tel meniere",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2759
+  },
+  {
+    "line_id": "eSc_line_19697c99",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "sil lisoit plus es liures q̃li sarra",
+    "prediction": "cil hsoit plus es liures qͥli sarra",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_50e0fb2d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "zin hauoient fait il saroit mout",
+    "prediction": "m li auoient fait il saroit mont",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1875
+  },
+  {
+    "line_id": "eSc_line_594a66ba",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "griemant batuz. Lors ses esꝑiz",
+    "prediction": "griemant batuz · Lors ses espiz",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝑ"
+    ],
+    "cer": 0.1
+  },
+  {
+    "line_id": "eSc_line_f9331e2c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "reuint en sou cors.⁊ꝯmanca",
+    "prediction": "reuint en son cors. ⁊ ꝯmanca",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.1154
+  },
+  {
+    "line_id": "eSc_line_75dfbfbf",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "maintenant .s'. Ieroismes aplo",
+    "prediction": "miantenant · Sͬ  ieroismes aplo",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2667
+  },
+  {
+    "line_id": "eSc_line_5dd8ba25",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "rer ⁊afroter ses espaules qͥ li ha",
+    "prediction": "rer  afroter ses espaules qͥ li ha",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͥ"
+    ],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_bb616b1c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uoient este faites deualut nostre",
+    "prediction": "noient este faites deu aut nostre",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_4577420b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "soignor: Et des lors sestudia il si",
+    "prediction": "soignor. Et des lors sestudia issi",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_a5d90b8d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "randi son eꝑsit a ih'ucrist ⁊ fiu ã",
+    "prediction": "raicoi son espit a ilmerist ⁊ fui ⁊",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝑ"
+    ],
+    "cer": 0.3429
+  },
+  {
+    "line_id": "eSc_line_82820dd8",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "foiz en lyglise mon soingnor saĩt",
+    "prediction": "gov en lıglise mon sonignor seũt",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2424
+  },
+  {
+    "line_id": "eSc_line_c74ffba4",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "pere. alonor ⁊ala gloire nr̃e",
+    "prediction": "pere. alouor ⁊ ala gloire vrẽ",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1724
+  },
+  {
+    "line_id": "eSc_line_1c25684e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "soignoz ih'ucrist qui uit ⁊reg",
+    "prediction": "soignor il \"�ricrist qui uit ⁊ reg",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2667
+  },
+  {
+    "line_id": "eSc_line_65f3ae70",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ne parduraublem̄t",
+    "prediction": "ne parduraublem̃t",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_ec585cb3",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ci ꝯmcela vie .s'. jeroisme",
+    "prediction": "n qͣntre li víe e͛ ꝯreí",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.7778
+  },
+  {
+    "line_id": "eSc_line_ebda1889",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "246",
+    "prediction": "24.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3333
+  },
+  {
+    "line_id": "eSc_line_cd0b2dd8",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "diligẽmant en sainte escripture",
+    "prediction": "diligẽmaint en saquite escripture",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_f79c9770",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "que il nauoit onques si uelonti",
+    "prediction": "que il nauoir orrques si velonti",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_48605f2e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ers lehuz les liures es paiens.",
+    "prediction": "ers lelynz les livres es paiens ·",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1935
+  },
+  {
+    "line_id": "eSc_line_f903c26c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uant sainz",
+    "prediction": "uant sainz",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_035c6225",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "leroismes ot",
+    "prediction": "jervisines ot",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3333
+  },
+  {
+    "line_id": "eSc_line_a1adfeba",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "xxxix. anz en son aaige il fui",
+    "prediction": "yzie aiu en son aaigt il fus",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3
+  },
+  {
+    "line_id": "eSc_line_744b0a49",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "esleuz a estre chardenaux de ly",
+    "prediction": "es leuz a estre chardenaux de by",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_cbcb8857",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "glise de rome ⁊ fut ordenez a p͛s",
+    "prediction": "glise de rome  fut ord͛uez a p͛s",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_6b264f5c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "tre. Quant il se fui estudiez a ro",
+    "prediction": "t ce · Quaint il se fui estudies a ro",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1765
+  },
+  {
+    "line_id": "eSc_line_7161f78a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "me par trois anz en sainte escͥp",
+    "prediction": "me par trois aiz en sainte esc͛p",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͥ"
+    ],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_42d11490",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ture il ot si la grace de tout le",
+    "prediction": "ture il ot si la grace de tout le",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_90970541",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "pueple que chascũs disoit quil",
+    "prediction": "pueple que chascũs disoit quil",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_c1b71d5b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "estoit dignes destre apostoiles:",
+    "prediction": "estoit dignes destre apostoileo",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_f2893081",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "mas pent ce quil reprenoit au",
+    "prediction": "was pour ce quil reprenoit au",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1379
+  },
+  {
+    "line_id": "eSc_line_f3aaef82",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "cuns clors de lour folies ⁊ il ne",
+    "prediction": "cũins clors de lour folres ⁊ il ne",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_8c2dd8ca",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "lour uueilloient pas soffrir",
+    "prediction": "lour uueilloient pas soffrir",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_8102c414",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ainz lesgaitoient souent pour",
+    "prediction": "auiz lesgnitoient souent pour",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1034
+  },
+  {
+    "line_id": "eSc_line_48050660",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "occirre.Il issi fors de rome ⁊en",
+    "prediction": "occirre qͥl issi foro de iume ⁊ en",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2188
+  },
+  {
+    "line_id": "eSc_line_cafb5e6d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ala a grẽgoire nazanzene qui e",
+    "prediction": "ala a gregoire navanzene qui",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1333
+  },
+  {
+    "line_id": "eSc_line_5e0c96a2",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uesques estoit de costantinoble",
+    "prediction": "u esques estoit de costantinoble",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0323
+  },
+  {
+    "line_id": "eSc_line_90a97046",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊danqui sen ala en ihrl'm ⁊ lai",
+    "prediction": "⁊ danqui sen ala en ihrlin ⁊ lai",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_07354fae",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "fut il petit de temps. Quar il",
+    "prediction": "fut il petit de temps · Quar il",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0667
+  },
+  {
+    "line_id": "eSc_line_2e803d73",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "se panssa quil voudroit uiure",
+    "prediction": "se paussa quil voudroit viure",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.069
+  },
+  {
+    "line_id": "eSc_line_36b2a730",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "en tele maniere que same ne fut",
+    "prediction": "en tele mainiere que saime ne fut",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_36c133cc",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "dampnee.Adont il sen ala en.i.",
+    "prediction": "dampnee · adont il sen ala en · ͛",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2667
+  },
+  {
+    "line_id": "eSc_line_70ea0d35",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "hermitage ou quel il soffri mõt",
+    "prediction": "hermutage ou quel il soffri moͬt",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_331e9cc7",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "de penitences ⁊ de durtez si cõme",
+    "prediction": "de peintences ⁊ de durtez si cõme",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0606
+  },
+  {
+    "line_id": "eSc_line_717516e1",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "al meismes dit de lui en une de",
+    "prediction": "il meismes dit de lui en une de",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0323
+  },
+  {
+    "line_id": "eSc_line_c8af1068",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ses apistres. Toutes les foiz que",
+    "prediction": "ses apistres · Toutes les foy que",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1212
+  },
+  {
+    "line_id": "eSc_line_0a4fe9da",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ie estoie en mon hermitaige.⁊",
+    "prediction": "ie estoie en mon hermutaige ⁊",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.069
+  },
+  {
+    "line_id": "eSc_line_b20fc036",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ie pooie estre en lardour dou so",
+    "prediction": "ie pooie estre en lardour dou so",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_dec5ee50",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "loil.il me sembloit que ie fusse a",
+    "prediction": "jo il me sembloit que ie fusse a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1176
+  },
+  {
+    "line_id": "eSc_line_369ffb2a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "rome es delices que ie soloie ha",
+    "prediction": "rome es delices que ie soloie ha",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_785c2ffe",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uoir.mui membre estoient aerˢ",
+    "prediction": "noir · mui iveinbre estoient aer",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3103
+  },
+  {
+    "line_id": "eSc_line_349534c9",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "au sac que ie hauoie uestu.ma",
+    "prediction": "au sae que ie hanoie vestu ·oya",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2414
+  },
+  {
+    "line_id": "eSc_line_995def4a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "charz estoit auxi noire ꝯ dũ mor",
+    "prediction": "chaiz estoit auxi noire ꝑ dũinor",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.125
+  },
+  {
+    "line_id": "eSc_line_9a49854a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "de moretaĩgne.Ie ploroie ⁊ ge",
+    "prediction": "de moretaĩgne. Le ploroie ⁊ ge",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.069
+  },
+  {
+    "line_id": "eSc_line_396de9b7",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "missoie toute iour. Quant au",
+    "prediction": "uuissore toute iour Ouaint au",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2143
+  },
+  {
+    "line_id": "eSc_line_65ef618c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "cune temptations me uenoit",
+    "prediction": "tune temptatioñ me uenoit",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0769
+  },
+  {
+    "line_id": "eSc_line_6f91131b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "en dormant.ie me couchoie a",
+    "prediction": "en dormant ꝑe ne couchoie a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_b6e41784",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "terre a nue char. ⁊ ia soit ce que",
+    "prediction": "terre a nue char ⁊ ia soit ce que",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0294
+  },
+  {
+    "line_id": "eSc_line_013b0236",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ie me trauaillasse en tel manie",
+    "prediction": "re me travaillasse en tel mauie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_a28d5206",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "toulz soulz",
+    "prediction": "couls louis",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.4545
+  },
+  {
+    "line_id": "eSc_line_edd5a91d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "re ⁊fusse entre les escorpions ⁊",
+    "prediction": "re ⁊ fusle entre les escorpions ⁊",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_918c46e6",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "entre les bestes sauuaiges se me",
+    "prediction": "entre les bestes sauuangro se me",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0938
+  },
+  {
+    "line_id": "eSc_line_07077673",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "sembloit il souant que ie estoie",
+    "prediction": "seinbloit il souant que ie estoie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_8e26738b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "as dances auec les puceles. Je",
+    "prediction": "as dauces auer les puceles . Le",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1333
+  },
+  {
+    "line_id": "eSc_line_7fdf9849",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ieunoie tant que ie estoie auxi",
+    "prediction": "ieuuoie tant que ie estoie aux",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_9791f09d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "come morz.⁊ neporquant mia chiͣͣz",
+    "prediction": "come mori ⁊ neporquant mĩt chir",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͣ",
+      "ͣ"
+    ],
+    "cer": 0.2121
+  },
+  {
+    "line_id": "eSc_line_19eb7c05",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "estoit toute ploine de mauuaise",
+    "prediction": "estoit toute plõme de manuillis",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2581
+  },
+  {
+    "line_id": "eSc_line_faa06eb7",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "couoitise de luxure.En tel mani",
+    "prediction": "couoitise de lueure · En tel maini",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1613
+  },
+  {
+    "line_id": "eSc_line_56d51d3a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ere ie ploroie toute iour ⁊ me ꝯ",
+    "prediction": "ere ie ploroie toute iour ⁊ me ꝑ",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.0312
+  },
+  {
+    "line_id": "eSc_line_957f7794",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "batoie a ma char.En lermitai",
+    "prediction": "batoie a ma char · En lermitai",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1071
+  },
+  {
+    "line_id": "eSc_line_337c1ae1",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ge demora sainz jeroismes .iiii.",
+    "prediction": "ge deniora sainz ꝯeroilmes ·uis.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_b32dc128",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "en peneance",
+    "prediction": "en peneance",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_0c44c84f",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "anz.Et adonc il sen parti ⁊ sen",
+    "prediction": "mz Et adonc il sen parti ⁊ sen",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_53c84707",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ala es parties de ihrl'm. Et adõt",
+    "prediction": "ala es parties de ihzkin · Et adõt",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1818
+  },
+  {
+    "line_id": "eSc_line_9c59514c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "se penssa il quil voudroit estre",
+    "prediction": "se penilla il quil voudroir entre",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1562
+  },
+  {
+    "line_id": "eSc_line_7c016c02",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "en bethleem ou nr̃e sires fu nez",
+    "prediction": "en bechyleeni ou nrẽ fires fu nez",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.2188
+  },
+  {
+    "line_id": "eSc_line_21e47080",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊couchiez ⁊ levez. Adonc sen a",
+    "prediction": "⁊ couchiez ⁊ levez  ⁊ldone sen a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1667
+  },
+  {
+    "line_id": "eSc_line_69294ba7",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "la il en bethleem ⁊ demanda a",
+    "prediction": "la il en bechleem ⁊ demanda a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0345
+  },
+  {
+    "line_id": "eSc_line_375d9075",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "levesque dou leu une eglise ou",
+    "prediction": "leuesque dou leu une eglise ou",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_e3c43f3a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "il peust demorer tour les iourz",
+    "prediction": "u peust demorer touz les iourz",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_4871517a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "de sa uie.⁊ levesques li outroia",
+    "prediction": "de sa vie  leuesques li outiria",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1875
+  },
+  {
+    "line_id": "eSc_line_5bd0c8f1",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "mont benignemant si come il",
+    "prediction": "mout uenignemant si conie il",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1481
+  },
+  {
+    "line_id": "eSc_line_301df7be",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "estoit de raison. adonc fist saĩz",
+    "prediction": "estoit de raison · adone fist saiz",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1176
+  },
+  {
+    "line_id": "eSc_line_682e4bf3",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ieroismes au leu une eglise ou",
+    "prediction": "ꝯ   ꝑroismes au leu une eslise",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3
+  },
+  {
+    "line_id": "eSc_line_bf748d9a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "i mist ⁊ assembla plusors pro",
+    "prediction": "il mist ⁊ assemble plusors pro",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.069
+  },
+  {
+    "line_id": "eSc_line_2fb15b8d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "domes en brief temps ⁊ plusors",
+    "prediction": "domes en brief temps ⁊ plusors",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_dcc8ceb9",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "deciples pour ce quil vesquis",
+    "prediction": "deciples pour ce quil Vesquis",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0345
+  },
+  {
+    "line_id": "eSc_line_75f3bc2e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "sent auec lui selonc la reigle",
+    "prediction": "sent avec lui selonc la reigle",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_30178936",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "des apostres. Et lai fu sainz ie",
+    "prediction": "dre apostres · Et lai fu sainz ie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.125
+  },
+  {
+    "line_id": "eSc_line_2c787166",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "roismes mout saintemant .L.",
+    "prediction": "roismes mont saintemant.l.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_0b066f1a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "anz ⁊ .vi. mois. ⁊ translatoit",
+    "prediction": "miz ⁊.ui. mois.� translatoit",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2
+  },
+  {
+    "line_id": "eSc_line_60baf97f",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "les saintes escriptures. ⁊ les ex",
+    "prediction": "les saintes escriptures ⁊ les ex",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0303
+  },
+  {
+    "line_id": "eSc_line_fa20c0a4",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "planoit.⁊ metoit les liures e",
+    "prediction": "planoit ⁊ metoit les livres e",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.069
+  },
+  {
+    "line_id": "eSc_line_4d988396",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "breus en latin ⁊ le uiez testam̃t",
+    "prediction": "breus en latín ⁊ le viez testant",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1212
+  },
+  {
+    "line_id": "eSc_line_2b093a7b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊ le nouel si ꝯme nous lauõs",
+    "prediction": "⁊ le novel si ꝯme nou͛s lenioͬ",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_714b4801",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ancour escrit.Mout fu .s'. ie",
+    "prediction": "ancour escrit · Mont fu ·sͬ . ie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2414
+  },
+  {
+    "line_id": "eSc_line_83411739",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "roismes proudoms ⁊de grant",
+    "prediction": "yoismes proudoms ⁊ de grant",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0769
+  },
+  {
+    "line_id": "eSc_line_876476d9",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "science. ⁊ mout enlumina saĩ",
+    "prediction": "science  mont euluinina saí",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_a7f5ca07",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "te eglise.quar il translata de",
+    "prediction": "te esuise ·quar il translata de",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1333
+  },
+  {
+    "line_id": "eSc_line_e61bf091",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "breu en latin les .xii. propheteᷤ",
+    "prediction": "breu en latin les xii. prophetes",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0606
+  },
+  {
+    "line_id": "eSc_line_ac111433",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "⁊le sautier.⁊ mout mena saĩ",
+    "prediction": "�ꝯ le sautier   mont mena seí",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3333
+  },
+  {
+    "line_id": "eSc_line_d15c4a45",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "te uie.ne porroit estre q̃ nũs",
+    "prediction": "te vie · Ne porroit estre q̃ nuis",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.2333
+  },
+  {
+    "line_id": "eSc_line_64339f62",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "homs racontast touz ses faiz qͣr",
+    "prediction": "homs racontast touz ses fay qͣr",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͣ"
+    ],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_7ccd423e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ainz ieroismes fui nez de",
+    "prediction": "Ainz ieroismes fui nez de",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.04
+  },
+  {
+    "line_id": "eSc_line_c5aabb2b",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "haute lignie dou chastel",
+    "prediction": "heinte lignie tou chastel",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1667
+  },
+  {
+    "line_id": "eSc_line_801f0605",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "qui fui apelez stridons si estoit",
+    "prediction": "qui fui Agelez stridons sie stoit",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1212
+  },
+  {
+    "line_id": "eSc_line_2acd4f9a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "en la marchie dalmasse ⁊depã",
+    "prediction": "en la in arche dalinaire ⁊ de p͛a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.4286
+  },
+  {
+    "line_id": "eSc_line_3c28baec",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "nonie.mas il est destruiz gͣnt",
+    "prediction": "nonie. Uas il est destruiz gͣnt",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͣ"
+    ],
+    "cer": 0.0667
+  },
+  {
+    "line_id": "eSc_line_7c9f9342",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "temps ha si ꝯme sont plusours",
+    "prediction": "temps li a si ꝯme cont ⁊  usours",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝯ"
+    ],
+    "cer": 0.2414
+  },
+  {
+    "line_id": "eSc_line_397865bd",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "autres uiles qui ia furent de",
+    "prediction": "autres uiles qui ja furent de",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0345
+  },
+  {
+    "line_id": "eSc_line_79d43203",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "gͣnt noblesce.Il fui baptiziez",
+    "prediction": "gͣnt noblesce. Il fui baptiziez",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͣ"
+    ],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_671c79a6",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "arome.Li peres . s'. ieroisme",
+    "prediction": "a rome. Li veres · S. ieroisme",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2069
+  },
+  {
+    "line_id": "eSc_line_712373b0",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "ot ca nom eusebius qui mont",
+    "prediction": "ot a nom eu͛cebins qui niont",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2222
+  },
+  {
+    "line_id": "eSc_line_2f4b45c1",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "fui proudons ⁊saiges ⁊sesfilz",
+    "prediction": "fui proudons  saiges ⁊ sesfilz",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1034
+  },
+  {
+    "line_id": "eSc_line_9b042376",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "lansuigui mout bien de science",
+    "prediction": "lansuigui mout bien de stience",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_cc86040e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "si com uous porroiz ⁊ entẽdͤ:",
+    "prediction": "si com vous por roiz our   entẽd�",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͤ"
+    ],
+    "cer": 0.3448
+  },
+  {
+    "line_id": "eSc_line_04ad7aec",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "Q uant .s'. ieromes fui anfes",
+    "prediction": "C.uant ·sͬ ieremes fui anfes",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2069
+  },
+  {
+    "line_id": "eSc_line_dc912802",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "il degurpi son pere pour ce qͥl",
+    "prediction": "il dugurui son ꝑere pour ce al",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͥ"
+    ],
+    "cer": 0.1613
+  },
+  {
+    "line_id": "eSc_line_57668468",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uoloit ensuigre la sainte euuã",
+    "prediction": "voloit encuigre la cante enuít",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2333
+  },
+  {
+    "line_id": "eSc_line_0c139f7e",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "gile.Il uint au riuaige delam͛",
+    "prediction": "gile · Il vint au riueige dela m͛t",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2333
+  },
+  {
+    "line_id": "eSc_line_a812378f",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "par la uolente nr̃e soignor.lai",
+    "prediction": "par la voleute nrẽ soignor · lai",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.2258
+  },
+  {
+    "line_id": "eSc_line_9359a555",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "aprist il p͛miers greu ⁊ latinꝑ",
+    "prediction": "ayrist il pͥmiers greu ⁊ latin ꝑ",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ꝑ"
+    ],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_568a238d",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "grant diligence ⁊si ensuigui la",
+    "prediction": "grant diligence  si ensiusui la",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1613
+  },
+  {
+    "line_id": "eSc_line_4efbf4ca",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "loy nr̃e soignor dou tout an tout",
+    "prediction": "loy nr͛e soignoz dou tout au tout",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_b222941a",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "benignemant.Il fui touz iourz",
+    "prediction": "bringneme maist · Il fui touz iourz",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.3793
+  },
+  {
+    "line_id": "eSc_line_c47cc179",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "uirges ⁊ dona example deboneᷤ",
+    "prediction": "viretes ⁊ dona ex ample drlyneͬ",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2759
+  },
+  {
+    "line_id": "eSc_line_5315815c",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "hueures acels qui apres lui estoi",
+    "prediction": "hueures a cels qui ayres lui estoi",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0606
+  },
+  {
+    "line_id": "eSc_line_4585c3e5",
+    "manuscrit": "bnf_fr_13496-saintJerome",
+    "reference": "Q",
+    "prediction": "E",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 1.0
+  },
+  {
+    "line_id": "eSc_line_8ad0fb8c",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Elle lui promist que si feroit elle.",
+    "prediction": "Elle liu promist que si feroit elle.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0556
+  },
+  {
+    "line_id": "eSc_line_7c3aff06",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "decole fu. Aduint long tamps apres",
+    "prediction": "Decole fu · Aduint long tamps apres",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0882
+  },
+  {
+    "line_id": "eSc_line_6f8ad291",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "cõme le Jour fu uenu que lempereur",
+    "prediction": "õme le iour fu uenu que lempereux",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1429
+  },
+  {
+    "line_id": "eSc_line_d41403a1",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "deuoit faire lugement des causes",
+    "prediction": "denoit faire iugement des causes",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_407c05fd",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "des uesues et des orphemins cõme il",
+    "prediction": "des uesues et des orphemis cõme il",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0286
+  },
+  {
+    "line_id": "eSc_line_9631e880",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "auoit acoustume que celle contesse",
+    "prediction": "uioit acoustume que celle contesse",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_07f13268",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "uint a court et porta le chief de son",
+    "prediction": "uint a court et porta le chief de son",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_3f207cb8",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "loyal mari sur elle Et uint deuant",
+    "prediction": "loyal mars sux elle Et uint deuant",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_173e2074",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "lempereur et lui demanda de quelle",
+    "prediction": "lempereur et lui demanda de quelle",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_28bd212e",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "mort deuoit morir qui auoit un",
+    "prediction": "mert deuoit moriz qui auoit uy",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1
+  },
+  {
+    "line_id": "eSc_line_af11e8d7",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "hõme Innocent occis sans cause. Cer",
+    "prediction": "hõme innocent otis sans cause · Cer",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1944
+  },
+  {
+    "line_id": "eSc_line_1885b830",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "tes dist lempereur on lui deueroit",
+    "prediction": "tes dist lempereux on lui deueroit",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0294
+  },
+  {
+    "line_id": "eSc_line_72aa48ff",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "coper la teste Haa sire dist elle Tu",
+    "prediction": "ropez la teste haa sire dist elle etu",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1389
+  },
+  {
+    "line_id": "eSc_line_018f8988",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "es celuy qui sans cause et a la sug",
+    "prediction": "es celuy qui sans cause et a la sug",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_ab279870",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "gestion de ta mauuaise fẽme as fait",
+    "prediction": "yesfion de ta mauuaise feine as fait",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_f520df56",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "morir mon seigneur mon mari.",
+    "prediction": "moria mon seigneur mon mays ·",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1786
+  },
+  {
+    "line_id": "eSc_line_cf34fa9a",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Et ce sui je preste de prouuer par",
+    "prediction": "Et ce sui je preste de promier par",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_7899499f",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "espreuue de porter feu a mes mains",
+    "prediction": "espreuie de porter feu a mes mains",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0294
+  },
+  {
+    "line_id": "eSc_line_75554ddf",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "nues. Lempereur qui voult ceste",
+    "prediction": "mies Lempereux qui uoult ceste",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1613
+  },
+  {
+    "line_id": "eSc_line_c0840d3a",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "chose esprouuer fist aporter un fer",
+    "prediction": "chose esprouner fist avorter un fer",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_b9dcb9b3",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "chault et la dame le print a ses",
+    "prediction": "chault et la dame se print a ses",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0312
+  },
+  {
+    "line_id": "eSc_line_cc54341b",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "mains nues et le porta grant piece",
+    "prediction": "mains nues et le porta grant piece",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_df359a95",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "sans sentiz nul mal. Lempereur",
+    "prediction": "sans sentir nul mal · Lẽirpereuy",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2333
+  },
+  {
+    "line_id": "eSc_line_4af7cf7f",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "en eut grant merueille et crut lors",
+    "prediction": "en eut grant merveille et cuit lors",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_8ca551c2",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "qua mauuaise cause il auoit fait",
+    "prediction": "qua mauuaise cause il auoit fait",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_809af006",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "le conte morir. Cria merci a la con",
+    "prediction": "le conte morir · Eva merci a la con",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1429
+  },
+  {
+    "line_id": "eSc_line_791847f4",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "tesse et se mist en sa menaie pour",
+    "prediction": "tesse et se mist en sa menaie pour",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_d1730a88",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "prendre de lui telle vengance q̃lle",
+    "prediction": "prendre de lui telle vengance lle",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_9d8ad8b4",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "uorroit. Lors par le conseil des ba",
+    "prediction": "uoroit · Lois par le conseis des ba",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1429
+  },
+  {
+    "line_id": "eSc_line_8b17b53c",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "rons ceste chose fu examinee et fu",
+    "prediction": "rons ceste chose fu examinee et fu",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_fb341a63",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "lempereis trouuee coulpable de la",
+    "prediction": "lempereis trouvee cõulpable de la",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0606
+  },
+  {
+    "line_id": "eSc_line_bd28fa1d",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "mort du conte a tort aduenue Si",
+    "prediction": "mort du conte a tort aduenue Ei",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0323
+  },
+  {
+    "line_id": "eSc_line_c7a5f185",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "fu arse toute uiue et lempereur",
+    "prediction": "fu arse toute ume et sempereux",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_617601a7",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "pour la redemption de soy mesmes",
+    "prediction": "Pour ıa redemption de soy mesmes",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0625
+  },
+  {
+    "line_id": "eSc_line_df87a4e5",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "donna a la contesse quatre bons",
+    "prediction": "doma a la contesse quatre bons",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0645
+  },
+  {
+    "line_id": "eSc_line_662bb2e3",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "chasteaulx heritablement et a tousioͬs.",
+    "prediction": "chaffeauly heutablement et atousios ·",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͬ"
+    ],
+    "cer": 0.2308
+  },
+  {
+    "line_id": "eSc_line_3a7c9e48",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Par cest example nous est donne",
+    "prediction": "Par cest roample nous est donie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0968
+  },
+  {
+    "line_id": "eSc_line_4d2afda8",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "a entendre que cest grant peril a",
+    "prediction": "A enten ore que cest grant peul a",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1515
+  },
+  {
+    "line_id": "eSc_line_3d8ca692",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "tous Iuges de croire trop legierem̃t",
+    "prediction": "tens iuges de cione tief legierem̃t",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_eb9a6991",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ce quilz oient dire sans examiner",
+    "prediction": "& quilz oient die sans gvaimmer",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2424
+  },
+  {
+    "line_id": "eSc_line_9b518ec0",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "la uerite de ces choses.",
+    "prediction": "sa verite de ces choses.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0833
+  },
+  {
+    "line_id": "eSc_line_fbb2ca35",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "elmand raconte du roy cambises",
+    "prediction": "e hna nd ruconte du uoy cambises",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2
+  },
+  {
+    "line_id": "eSc_line_3bed9f9b",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "de perse qui fist prendre un iuge poͬ",
+    "prediction": "De peise qui fist prendie un huge po͛",
+    "has_abbreviation": true,
+    "abreviations": [
+      "ͬ"
+    ],
+    "cer": 0.1351
+  },
+  {
+    "line_id": "eSc_line_6d33cfbd",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "un mauuais iugement que cil",
+    "prediction": "uii mauuuuis iingement que cil",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2222
+  },
+  {
+    "line_id": "eSc_line_d89d93d9",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "auoit fait et le fist tout uif escorch'r",
+    "prediction": "uuoit fait et le fist tout uifestorchz",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.125
+  },
+  {
+    "line_id": "eSc_line_99528faf",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Et puis il fist conrer le cuir et en fist",
+    "prediction": "Et puis il fist conrer le cuiz et en fist",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0244
+  },
+  {
+    "line_id": "eSc_line_9145d6ce",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "couurir le siege de la iustice et cõme",
+    "prediction": "couuriz le siege ꝑela justice et cõme",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1538
+  },
+  {
+    "line_id": "eSc_line_433ad266",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "il eut cõmis a loffice de juge le filz de",
+    "prediction": "il eut cõmis a loffice de juge le filz de",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.0476
+  },
+  {
+    "line_id": "eSc_line_294e416a",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "celui quil auoit fait escorchier et il",
+    "prediction": "celui quil auoit fait escorchiez et il",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0263
+  },
+  {
+    "line_id": "eSc_line_ca09ec39",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "fu assis sur le cuir de son pere Il lui",
+    "prediction": "fu assis sur le tuiz de sõn pere Il lui",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0769
+  },
+  {
+    "line_id": "eSc_line_92ce7ce8",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "dist il te souuienge dist il de la",
+    "prediction": "dist il te souuenyne dist il de la",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0882
+  },
+  {
+    "line_id": "eSc_line_e44f2c5f",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "mauuaistie de ton pere et te garde",
+    "prediction": "mauuaistie de ton pere et te garde",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_9ed4a7ed",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "de faire faulx lugement Car ie te fe",
+    "prediction": "De faire faily iugement Cai je te",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.25
+  },
+  {
+    "line_id": "eSc_line_66e139a6",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "roie morir de cruelle mort cõme jay",
+    "prediction": "zoie moriz de cquelle mort cõine iuy",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.2222
+  },
+  {
+    "line_id": "eSc_line_2d3306f9",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "fait ton pere. Haa dieu que ne res",
+    "prediction": "fait toy pere. Maa dieu ꝯne ne res",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1176
+  },
+  {
+    "line_id": "eSc_line_d338e20e",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "samblent tous princes du monde",
+    "prediction": "Samblent tous princes du monde",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_0dff96f7",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "a cambises en ceste partie. Certaine",
+    "prediction": "a cambises en ceste partie · Certaine",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0556
+  },
+  {
+    "line_id": "eSc_line_1414b646",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ment ilz pouruerroient aincoys aux",
+    "prediction": "ment ik pouvuezroient amcoys aux",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1765
+  },
+  {
+    "line_id": "eSc_line_0330c6a5",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "offices que aux officiers Maint",
+    "prediction": "offices ꝯne nux officiers maint",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_4a0230a3",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "mal aduient souuent par deffaulte",
+    "prediction": "mals adment sõuient par deffailte",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1818
+  },
+  {
+    "line_id": "eSc_line_1fa496ab",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "de bons iuges.",
+    "prediction": "de bons iuyes.",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0714
+  },
+  {
+    "line_id": "eSc_line_2a7858c7",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ercembaud de lornair qui fu",
+    "prediction": "Jerceimbaud de lornair qui fu",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0741
+  },
+  {
+    "line_id": "eSc_line_73ac7d30",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "noble hõme et puissant et de grãt",
+    "prediction": "noble hõme et puissant et de ꝯtãt",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃",
+      "̃"
+    ],
+    "cer": 0.1714
+  },
+  {
+    "line_id": "eSc_line_438342da",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "seignorie ne acceptoit nulles per",
+    "prediction": "seignorie ne aiteptoit nulles pr",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_f474867d",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "somes en iugement Il faisoit iu",
+    "prediction": "sonnes en iyigenient Il fuisoit iu",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2258
+  },
+  {
+    "line_id": "eSc_line_51d632e9",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "stice en tous tamps et de toutes",
+    "prediction": "ftice en tous tamps et de toutes",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0312
+  },
+  {
+    "line_id": "eSc_line_d635ee17",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "questions et Se tous cas aussi tost",
+    "prediction": "questions et Se tous cas aussi toff",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_d20a6e12",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "au poure cõme au riche aussi tost",
+    "prediction": "au poure cõme au riche aussi tost",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_a5483936",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "a un estrangier cõme a son meilleͬ",
+    "prediction": "Aun estraugier cõme a son meille",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃",
+      "ͬ"
+    ],
+    "cer": 0.1714
+  },
+  {
+    "line_id": "eSc_line_f511734f",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ami pugnissoit les malfaiteurs",
+    "prediction": "Ann pugnissoit les malfaiteurs",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1
+  },
+  {
+    "line_id": "eSc_line_71b615ba",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "qui quilz fussent sans nul espar",
+    "prediction": "Qui quilz fissent sous nul espar",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.125
+  },
+  {
+    "line_id": "eSc_line_b5326119",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "gnier tant lui fust prochain Aduĩt",
+    "prediction": "ginez tant lui fust prochain · Aduĩt",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1471
+  },
+  {
+    "line_id": "eSc_line_a14c770c",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "quil acoucha au lit de la mort et",
+    "prediction": "quil acoucha au lit de la mort et",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0
+  },
+  {
+    "line_id": "eSc_line_f442b821",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "que ainsi cõme il estoit un jour",
+    "prediction": "que anisi cõme il estoit un louz",
+    "has_abbreviation": true,
+    "abreviations": [
+      "̃"
+    ],
+    "cer": 0.1818
+  },
+  {
+    "line_id": "eSc_line_b1dcd3dc",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "en son lit il oy en une chambre p̉s",
+    "prediction": "en son lit il oy en une chambie p͛s",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_5741b93d",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "de luy grant tumulte grant cry",
+    "prediction": "de luy grant tunulte grant cry",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0333
+  },
+  {
+    "line_id": "eSc_line_d0d5d51b",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "et grant noise .Il demanda a lun",
+    "prediction": "et grant neise .ss demanda a lun",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0938
+  },
+  {
+    "line_id": "eSc_line_ac280d20",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "de ses gens que cestoit Cil lui res",
+    "prediction": "de ses gens que cestoit Eil lui res",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0286
+  },
+  {
+    "line_id": "eSc_line_2e1dd119",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "pondi quil ne scauoit car il ne lui",
+    "prediction": "pendz quil ne stauoit car il ne lui",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0857
+  },
+  {
+    "line_id": "eSc_line_7478ffc9",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "osa dire. Lors il dist a un autre.",
+    "prediction": "osa dne · Lois ꝑs dist a un autie ·",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.2941
+  },
+  {
+    "line_id": "eSc_line_8b74b6d4",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Va dist il en celle chambre ou jay",
+    "prediction": "ua dist il en celle chambre ou ia y",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0882
+  },
+  {
+    "line_id": "eSc_line_c9ec03e2",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "telle noise oye et me raporte verite",
+    "prediction": "telle noise oye et me vaporte uerite",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0556
+  },
+  {
+    "line_id": "eSc_line_6c0f0e84",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "sur ta uie on sur paine de perdre",
+    "prediction": "suz ta uie o͛u sur paine de perdie",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1212
+  },
+  {
+    "line_id": "eSc_line_a086cab5",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "tes yeux. Cil y ala et reuint a son",
+    "prediction": "tes yeux. Cis y ala et reuint ason",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0571
+  },
+  {
+    "line_id": "eSc_line_d68acf0e",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "seigneur et lui dist que son nep",
+    "prediction": "seigneur et liu dist que son neꝑ",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0938
+  },
+  {
+    "line_id": "eSc_line_8cda9578",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ueu auoit en celle chambre volu",
+    "prediction": "uen auoit en celle chambie uosu",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.129
+  },
+  {
+    "line_id": "eSc_line_295b1d46",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "uioler pai force une Jone fille et",
+    "prediction": "uioler par force une jone fille et",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0588
+  },
+  {
+    "line_id": "eSc_line_9ca48364",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "pour ce auoit la fille crie si hault",
+    "prediction": "poir ce auoit la filie cne si hault",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.1111
+  },
+  {
+    "line_id": "eSc_line_046dc273",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "Hercembaud apella deux de ses che",
+    "prediction": "Uercem band apella deux de ses che",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.0909
+  },
+  {
+    "line_id": "eSc_line_af490e31",
+    "manuscrit": "kbr_9232-examensMoraux",
+    "reference": "ualiers et leur dist Je vous com",
+    "prediction": "ualiers et leur dist ie uous coni",
+    "has_abbreviation": false,
+    "abreviations": [],
+    "cer": 0.125
+  }
+]
